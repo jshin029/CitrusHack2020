@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.app__title {
+  padding-top: 2%;
+  color: white;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.app__image-container {
+  padding-top: 4%;
+  text-align: center;
+
+}
+
+.app__image {
+  width: 20%;
+}
+
+.app__title-citrus {
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-size: 60px;
+}
+
+.app__subTitle {
+  color: white;
+  text-align: center;
+}
