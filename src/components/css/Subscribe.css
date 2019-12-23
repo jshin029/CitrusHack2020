@@ -1,0 +1,11 @@
+.Subscribe {
+    width: 100vw;
+    height: 100vh;
+    padding: 8%;
+    background-color: #272727;
+  }
+  .Subscribe__image {
+    margin-left: 6%;
+    width: 90%;
+    padding-top: 15%;
+  }
