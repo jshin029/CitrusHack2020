@@ -3,7 +3,7 @@ import logo from './assets/logo.svg';
 import { Button } from 'antd';
 import './css/Subscribe.css';
 import Parser from 'html-react-parser';
-var thisIsMyCopy = `<!-- Begin Mailchimp Signup Form -->
+var mailchimpCode = `<!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background: #272727; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
@@ -24,14 +24,14 @@ var thisIsMyCopy = `<!-- Begin Mailchimp Signup Form -->
 <!--End mc_embed_signup--></div>`;
 const tangerine = require('./assets/tangerine.png');
 
-class Home extends Component {
+class Subscribe extends Component {
 
 
     render() {
         return (
             <div className="container-fluid Subscribe">
                 
-                <div className="content">{Parser(thisIsMyCopy)}</div>
+                <div className="content">{Parser(mailchimpCode)}</div>
                     <div className="lg-5">
                         <img className="Subscribe__image" src={tangerine}></img>
                     </div>
@@ -42,4 +42,4 @@ class Home extends Component {
 }
 
 
-export default Home;
+export default Subscribe;
