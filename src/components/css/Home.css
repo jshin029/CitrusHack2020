@@ -3,6 +3,7 @@
     height: 100vh;
     padding: 8%;
     background-color: #272727;
+    overflow:auto;
   }
   
   .App__header-mini {
@@ -49,7 +50,10 @@
   .App__image {
     margin-left: 6%;
     width: 90%;
+    background-color: #272727;
+
   }
+  .lg-5{background-color: #272727;}
   
   @media only screen and (max-width: 600px) {
     .App__header-mini {
@@ -70,12 +74,13 @@
   
     .App__mobile-container {
       width: 100%;
-      text-align: center;
+      text-align: left;
     }
   
     .App__image {
       margin: auto;
       width: 50%;
+      margin-left: 25%;
     }
   }
   

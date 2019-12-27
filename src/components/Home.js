@@ -38,11 +38,13 @@ class Home extends Component {
                         <div className="App__mobile-container">
                             <button className="App__button-subscribe" onClick={this.handleSub}> Subscribe</button>
                         </div>
+          
                     </div>
-                    <div className="lg-5">
-                        <img className="App__image" src={tangerine}></img>
-                    </div>
+
                 </div>
+                {/* <div className="lg-5 container-fluid"> */}
+                        <img className="App__image" src={tangerine}></img>
+                    {/* </div> */}
             </div>
         );
     }
