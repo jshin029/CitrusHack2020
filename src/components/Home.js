@@ -5,6 +5,7 @@ import './css/Home.css';
 import Parser from 'html-react-parser';
 import { Redirect } from 'react-router-dom';
 const tangerine = require('./assets/tangerine.png');
+const hero = require('./assets/herographicBG.png')
 
 class Home extends Component {
 
@@ -40,7 +41,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="col-lg-5 container-fluid">
-                      <img className="App__image" src={tangerine}></img>
+                      <img className="App__image" src={hero}></img>
                     </div>
                 </div>
 
