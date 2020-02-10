@@ -1,8 +1,7 @@
-.App
-{
+.App {
   width: 100vw;
   height: 100vh;
-  padding: 8%;
+  padding: 0%;
   background-color: #ececee;
   overflow:auto;
 }
@@ -14,9 +13,9 @@
 }
 
 .App__header-main {
-  font-size: 105px;
-  font-weight: 700;
-  color: #FE914D;
+  font-size: 60px;
+  font-weight: 750;
+  color: #373A56;
   padding-top: 4%;
 }
 
@@ -26,15 +25,18 @@
   padding-top: 6%;
 }
 
+.App__body {
+  color: #A6A6B4;
+  font-size: 15px;
+}
+
 .App__button-subscribe {
-  background-color: #FE914D;
+  width: 25%;
+  background-color: #FBBC89;
   color: white;
   border: none;
-  border-radius: 10px;
-  font-size: 20px;
-  padding: 1.5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  border-radius: 40px;
+  font-size: 15px;
   margin-top: 1%;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
@@ -47,9 +49,12 @@
 }
 
 .App__image {
-  margin-left: 6%;
-  width: 100%;
-  background-color: #272727;
+  padding-top: 5%;
+  width: 90%;
+}
+
+.App__right {
+  padding-top: 10%;
 }
 
 @media only screen and (max-width: 600px) {

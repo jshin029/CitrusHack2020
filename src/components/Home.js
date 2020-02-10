@@ -33,21 +33,24 @@ class Home extends Component {
         }
 
         return (
-            <div className="container-fluid App">
-              <div className="row">
-                <div className="col-lg-7">
-                  <h4 className="App__header-mini">CONNECT . HACK . LEARN .</h4>
-                  <h2 className="App__header-main">Citrus Hack 2020</h2>
-                  <h3 className="App__header-subMain">Get notified when we launch by joining our mailing list</h3>
-                  <div className="App__mobile-container">
-                      <button className="App__button-subscribe" onClick={this.handleSub}> Subscribe</button>
+            <div className="App">
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-lg-7">
+                    <img className="App__image" src={hero}></img>
+                  </div>
+                  <div className="col-lg-5 App__right">
+                    <h2 className="App__header-main">Citrus Hack 2020</h2>
+                    <p className="App__body">CONNECT . HACK . LEARN .</p>
+                    <p className="App__body">April 26 - 27th, 2020</p>
+                    <p className="App__body">April 26 - 27th, 2020</p>
+                    <div className="App__mobile-container">
+                      <button className="App__button-subscribe" onClick={this.handleSub}>APPLY</button>
+                    </div>
                   </div>
                 </div>
-                <div className="col-lg-5 container-fluid">
-                  <img className="App__image" alt="hero" src={hero}/>
-                </div>
+                <About />
               </div>
-              <About />
             </div>
         );
     }
