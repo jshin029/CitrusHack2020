@@ -6,7 +6,6 @@
 }
 
 .App__header-mini {
-  color: white;
   margin: 0;
   font-size: 25px;
   font-weight: 300;
@@ -20,7 +19,6 @@
 }
 
 .App__header-subMain {
-  color: white;
   font-size: 35px;
   font-weight: 500;
   padding-top: 6%;
