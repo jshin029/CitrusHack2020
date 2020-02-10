@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.26.3",
+    "bootstrap": "^4.4.1",
     "gh-pages": "^2.1.1",
     "html-react-parser": "^0.10.0",
     "react": "^16.12.0",

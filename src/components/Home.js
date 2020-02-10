@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import './Home.css';
 import logo from './assets/logo.svg';
 import { Button } from 'antd';
 import './css/Home.css';
 import Parser from 'html-react-parser';
 import { Redirect } from 'react-router-dom';
+import About from './About/About';
+
 const tangerine = require('./assets/tangerine.png');
 const hero = require('./assets/herographicBG.png')
 
@@ -30,22 +33,24 @@ class Home extends Component {
         }
 
         return (
-            <div className="container-fluid App">
+            <div className="App">
+              <div className="container-fluid">
                 <div className="row">
-                  <div className="col-lg-7 container-fluid">
+                  <div className="col-lg-7">
                     <img className="App__image" src={hero}></img>
                   </div>
-                    <div className="col-lg-5 App__right">
-                        <h2 className="App__header-main">Citrus Hack 2020</h2>
-                        <p className="App__body">CONNECT . HACK . LEARN .</p>
-                        <p className="App__body">April 26 - 27th, 2020</p>
-                        <p className="App__body">April 26 - 27th, 2020</p>
-                        <div className="App__mobile-container">
-                            <button className="App__button-subscribe" onClick={this.handleSub}>APPLY</button>
-                        </div>
+                  <div className="col-lg-5 App__right">
+                    <h2 className="App__header-main">Citrus Hack 2020</h2>
+                    <p className="App__body">CONNECT . HACK . LEARN .</p>
+                    <p className="App__body">April 26 - 27th, 2020</p>
+                    <p className="App__body">April 26 - 27th, 2020</p>
+                    <div className="App__mobile-container">
+                      <button className="App__button-subscribe" onClick={this.handleSub}>APPLY</button>
                     </div>
+                  </div>
                 </div>
-
+                <About />
+              </div>
             </div>
         );
     }
