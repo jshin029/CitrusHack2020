@@ -17,17 +17,3 @@ function App() {
 }
 
 export default App;
-        // <HashRouter basename="/">
-        //   <Switch>
-        //     <Route exact path="/" component={Home}/>
-        //     <Route path="/login" component={Login}/>
-        //     <Route path="/forgotpassword" component={ForgotPassword}/>
-        //     <Route path="/passwordreset/:token" component={PasswordReset}/>
-        //     <Route path="/administratorDashboard" component={AdminDashboard}/>
-        //     <Route path="/schedule" component={Schedule}/>
-        //     <Route path="/map" component={Map}/>
-        //     <Route path="/judges" component={Judges}/>
-        //     <Route path="/live" component={Live}/>
-        //     <PrivateRoute path='/profile' component={Profile} isAuthenticated={this.props.currentUser.profile}/>
-        //   </Switch>
-        // </HashRouter>

@@ -37,11 +37,11 @@ class Home extends Component {
                   </div>
                     <div className="col-lg-5 App__right">
                         <h2 className="App__header-main">Citrus Hack 2020</h2>
-                        <p className="App__body">CONNECT . HACK . LEARN .</p>
-                        <p className="App__body">April 26 - 27th, 2020</p>
-                        <p className="App__body">April 26 - 27th, 2020</p>
+                        <h2 className="App__header-sub">CONNECT . HACK . LEARN .</h2>
+
+
                         <div className="App__mobile-container">
-                            <button className="App__button-subscribe" onClick={this.handleSub}>APPLY</button>
+                            <button className="App__button-subscribe" onClick={this.handleSub}>Register Now</button>
                         </div>
                     </div>
                 </div>

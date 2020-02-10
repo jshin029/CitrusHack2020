@@ -14,15 +14,12 @@ class Navbar extends Component {
       }
 
     render() {
-
-
         return (
             <div className="navbar__container">
                 <button  className="buttons">HOME</button>
                 <button  className="buttons">ABOUT</button>
                 <button  className="buttons">FAQ</button>
                 <button  className="buttons">SPONSORS</button>
-                <button  className="buttons">APPLY</button>
             </div>
         );
     }

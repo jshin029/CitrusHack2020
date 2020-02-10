@@ -1,17 +1,19 @@
 .navbar__container {
   background-color: #ececee;
   float: right;
-  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1.4%;
 }
 
 a:hover { color:#000 !important;}
 
 .buttons {
   color: #696969;
-  font-size: 1em;
+  font-size: 14px;
+  font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.10em;
   background-color: Transparent;
   border: none;
   padding: 15px;

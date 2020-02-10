@@ -17,28 +17,33 @@
   font-size: 60px;
   font-weight: 750;
   color: #373A56;
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
-.App__header-subMain {
-  color: white;
-  font-size: 35px;
-  font-weight: 500;
-  padding-top: 6%;
+.App__header-sub {
+  color: #373A56;
+  font-size: 24px;
+  margin-top: 2%;
 }
 
 .App__body {
   color: #A6A6B4;
   font-size: 15px;
+  margin: 0%;
+  padding: 0;
+  margin-top: 0.5%;
 }
 
 .App__button-subscribe {
-  width: 25%;
   background-color: #FBBC89;
   color: white;
   border: none;
   border-radius: 40px;
   font-size: 15px;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   margin-top: 1%;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
