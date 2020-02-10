@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar';
 import logo from './assets/logo.svg';
 import { Button } from 'antd';
 import './css/Home.css';
@@ -6,6 +7,7 @@ import Parser from 'html-react-parser';
 import { Redirect } from 'react-router-dom';
 const tangerine = require('./assets/tangerine.png');
 const hero = require('./assets/herographicBG.png')
+
 
 class Home extends Component {
 
@@ -31,7 +33,9 @@ class Home extends Component {
 
         return (
             <div className="container-fluid App">
+                <div className="navbarHome"><Navbar /></div>
                 <div className="row">
+                
                     <div className="col-lg-7">
                         <h4 className="App__header-mini">CONNECT . HACK . LEARN .</h4>
                         <h2 className="App__header-main">Citrus Hack 2020</h2>
