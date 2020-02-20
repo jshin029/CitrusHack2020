@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import logo from './assets/logo.svg';
-import { Button } from 'antd';
+// import { Button } from 'antd';
 import './css/Home.css';
+import { Icon } from 'antd';
+import { Row, Container, Col } from 'react-bootstrap';
 import Parser from 'html-react-parser';
 import { Redirect } from 'react-router-dom';
 const tangerine = require('./assets/tangerine.png');
 const hero = require('./assets/herographicBG.png')
+
 
 class Home extends Component {
 
@@ -47,7 +50,8 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-
+                <div className="section3">
+                </div>
             </div>
         );
     }

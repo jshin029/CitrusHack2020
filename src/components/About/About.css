@@ -1,17 +1,19 @@
 .About__section {
   margin-top: 64px;
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.About__caption {
+  padding-left: 5%;
 }
 
 .About__description{
   margin-top: 32px;
   margin-bottom: 32px;
-}
-
-.About__boxContainer {
-  box-shadow: 0 25px 50px -12px rgba(161, 163, 181, 0.25);
-  width: 176px;
-  height: 128px;
-  background-color: #f7f7f7;
+  padding-left: 5%;
+  font-size: 14px;
 }
 
 .About__imageContainer {
@@ -19,6 +21,6 @@
 }
 
 #About__image {
-  width: 120%;
+  width: 100%;
   overflow-x: hidden;
 }

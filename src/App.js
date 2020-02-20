@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Subscribe from './components/Subscribe';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
+import Faq from './components/Faq';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Navbar />
           <Home />
           <About />
+          <Faq />
       </div>
   );
 }

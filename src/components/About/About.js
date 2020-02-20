@@ -9,18 +9,8 @@ function About() {
         <div className="col-8">
           <h2 className="About__caption caption">About Us</h2>
           <p className="About__description description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut erat et turpis blandit posuere tempus et diam. Aenean eget porta leo. Quisque sed blandit orci. Donec nec ipsum sapien. Maecenas tincidunt augue non nulla ultricies tempor.
-          </p>
+Citrus Hack is where hundreds of students from all over Southern California (and a few from out-of-state) come together and form teams, aiming to build a project of their own from scratch over the duration of 36 hours. Citrus Hack is focused on the brilliant partnership between education and competition. While “hackers” compete for prizes, they hone their technical skills along the way.          </p>
           <div className="row justify-content-center">
-            <div className="col-4">
-              <div className="About__boxContainer">hi</div>
-            </div>
-            <div className="col-4">
-              <div className="About__boxContainer"></div>
-            </div>
-            <div className="col-4">
-              <div className="About__boxContainer"></div>
-            </div>
           </div>
         </div>
         <div className="col-4">

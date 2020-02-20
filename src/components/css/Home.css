@@ -3,7 +3,7 @@
   height: 100vh;
   padding: 0%;
   background-color: #ececee;
-  overflow:auto;
+  overflow: hidden;
 }
 
 .App__header-mini {
@@ -89,5 +89,23 @@
     margin: auto;
     width: 50%;
     margin-left: 25%;
+  }
+
+  .faqTitle{
+
+    font-size: 40px;
+    font-weight: 750;
+    color: #373A56;
+
+  }
+
+  /* /* .primaryFaq{
+    font-size: 30px;
+  } */
+  .subfaqtitle{
+    font-size: 30px;
+  }
+  .title{
+    font-size: 30px;
   }
 }
