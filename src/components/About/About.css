@@ -1,0 +1,24 @@
+.About__section {
+  margin-top: 64px;
+}
+
+.About__description{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.About__boxContainer {
+  box-shadow: 0 25px 50px -12px rgba(161, 163, 181, 0.25);
+  width: 176px;
+  height: 128px;
+  background-color: #f7f7f7;
+}
+
+.About__imageContainer {
+  width: 100%;
+}
+
+#About__image {
+  width: 120%;
+  overflow-x: hidden;
+}
