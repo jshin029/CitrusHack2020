@@ -12,25 +12,7 @@ const hero = require('./assets/herographicBG.png')
 
 class Home extends Component {
 
-    constructor(props){
-        super(props);
-        this.state = {
-          redirectSub: false,
-        }
-      }
-
-
-    handleSub = () => {
-        this.setState({
-          redirectSub: true
-        })
-    }
-
-
     render() {
-        if (this.state.redirectSub){
-            return <Redirect push to ="/subscribe" />
-        }
 
         return (
             <div className="container-fluid App">
@@ -46,7 +28,9 @@ class Home extends Component {
 
 
                         <div className="App__mobile-container">
-                            <button className="App__button-subscribe" onClick={this.handleSub}>Register Now</button>
+                            <a href="https://citrus-hack.typeform.com/to/ygXesI">
+                            <button className="App__button-subscribe" >Register Now</button>
+                            </a>
                         </div>
                     </div>
                 </div>
