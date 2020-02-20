@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home';
 import Subscribe from './components/Subscribe';
 import Navbar from './components/Navbar/Navbar';
+import About from './components/About/About';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <div className='app' style={{backgroundColor: '#ececee'}}>
           <Navbar />
           <Home />
+          <About />
       </div>
   );
 }

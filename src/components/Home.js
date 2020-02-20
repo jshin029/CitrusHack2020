@@ -38,6 +38,8 @@ class Home extends Component {
                     <div className="col-lg-5 App__right">
                         <h2 className="App__header-main">Citrus Hack 2020</h2>
                         <h2 className="App__header-sub">CONNECT . HACK . LEARN .</h2>
+                        <p className="App__body"># Orbach Library @ 5PM</p>
+                        <p className="App__body"># April 25th - 26th</p>
 
 
                         <div className="App__mobile-container">
