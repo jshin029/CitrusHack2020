@@ -50,7 +50,7 @@ class Faq extends Component {
                       <Arrow style={{fontSize: '30px'}} title={'What is a hackathon?'} body={"A hackathon is a place where you and hundreds of other people learn, build, and create new technologies over the course of one weekend! Hackathons let you try learning a new skill, commit to that crazy idea you've never had time for, or make new friendships and strengthen old ones."} />
                     </div>
                     <div className="secondaryFaq" style={{textAlign: 'center'}}>
-                      <Arrow className="title" title={'Who can attend?'} body={'We welcome all undergraduate students from UCR, RCC, and CBU to attend. High school students in the surrounding area are also encouraged to attend!'} />
+                      <Arrow className="title" title={'Who can attend?'} body={'Any student enrolled in a 4 year college or university is invited to apply'} />
                     </div>
                     <div className="secondaryFaq" style={{textAlign: 'center'}}>
                       <Arrow className="title" title={'Is there free food?'} body={'Yes! Meals, refreshments, and snacks will be provided throughout the event'} />
@@ -64,13 +64,13 @@ class Faq extends Component {
                 <Col className="noPadding">
                   <div className="faq2Bubble">
                     <div style={{textAlign: 'center'}}>
-                      <Arrow title={'Is Cutie Hack free?'} body={'Absolutely! There is no cost to attend, but do bring your own hacking device(s)!'} />
+                      <Arrow title={'Is Citrus Hack free?'} body={'Absolutely! There is no cost to attend, but do bring your own hacking device(s)!'} />
                     </div>
                     <div className="secondaryFaq" style={{textAlign: 'center'}}>
-                      <Arrow title={'What should I bring?'} body={'Student IDs are required. Consider bringing a hacking machine, headphones, and computer peripherals. Feel free to bring your own parts as well but note that soldering is not allowed at Cutie Hack.'} />
+                      <Arrow title={'What should I bring?'} body={'Student IDs are required. Consider bringing a hacking machine, headphones, and computer peripherals. Feel free to bring your own parts as well but note that soldering is not allowed at Citrus Hack.'} />
                     </div>
                     <div className="secondaryFaq" style={{textAlign: 'center'}}>
-                      <Arrow title={"What if I don't know how to code?"} body={'Cutie Hack is a beginner friendly hackathon and open to all skill levels. During the event take the time to checkout workshops and collaborate with others!'} />
+                      <Arrow title={"What if I don't know how to code?"} body={'Citrus Hack is open to all skill levels. During the event take the time to checkout workshops and collaborate with others!'} />
                     </div>
                     <div className="secondaryFaq" style={{textAlign: 'center'}}>
                       <Arrow title={'What if I still have questions?'} body={"Email us at citrushack@gmail.com. We love answering questions!"} />

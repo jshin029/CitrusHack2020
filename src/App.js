@@ -7,6 +7,7 @@ import Subscribe from './components/Subscribe';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Faq from './components/Faq';
+import Sponsors from './components/Sponsors';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Home />
           <About />
           <Faq />
+          <Sponsors/>
       </div>
   );
 }
