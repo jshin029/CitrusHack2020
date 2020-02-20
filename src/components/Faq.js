@@ -35,7 +35,7 @@ class Arrow extends Component {
     }
   }
 
-class About extends Component {
+class Faq extends Component {
     render(){
         return(
             <div>
@@ -84,4 +84,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default Faq;

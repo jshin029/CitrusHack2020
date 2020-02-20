@@ -7,7 +7,7 @@ import { Row, Container, Col } from 'react-bootstrap';
 import Parser from 'html-react-parser';
 import { Redirect } from 'react-router-dom';
 
-import About from './About';
+import Faq from './Faq';
 
 const tangerine = require('./assets/tangerine.png');
 const hero = require('./assets/herographicBG.png')
@@ -52,7 +52,7 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="section3">
-          <About />
+          <Faq />
           </div>
             </div>
         );
