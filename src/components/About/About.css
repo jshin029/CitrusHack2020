@@ -1,26 +1,66 @@
 .About__section {
-  margin-top: 64px;
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   overflow: hidden;
 }
 
-.About__caption {
-  padding-left: 5%;
+.About__header {
+  font-weight: 750;
+  color: #373A56;
+  padding-top: 2%;
+  font-size: 45px;
 }
 
 .About__description{
-  margin-top: 32px;
-  margin-bottom: 32px;
-  padding-left: 5%;
-  font-size: 35px;
+  color: #373A56;
+  margin-top: 6%;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.8;
+  width: 85%;
 }
 
 .About__imageContainer {
   width: 100%;
 }
 
-#About__image {
+.About__image {
+  float: right;
+  width: 88%;
+}
+
+.About__boxes {
+  margin-top: 8%;
   width: 100%;
-  overflow-x: hidden;
+}
+
+.About__box {
+  height: 85%;
+  box-shadow: 0px 2px 15px rgba(129, 129, 129, 0.15);
+  margin-right: 4%;
+  margin-left: 2%;
+  text-align: center;
+  padding: 4%;
+  border-radius: 10px;
+}
+
+.About__box_title1, .About__box_title2, .About__box_title3 {
+  font-size: 42px;
+}
+
+.About__box_title1 {
+  color: #412B73
+}
+
+.About__box_title2 {
+  color: #ABC13B;
+}
+
+.About__box_title3 {
+  color: #1A0E35
+}
+
+.About__box_text {
+  font-weight: 300;
+  font-size: 18px;
 }

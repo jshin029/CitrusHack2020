@@ -1,0 +1,111 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  padding: 0%;
+  background-color: #ececee;
+  overflow: hidden;
+}
+
+.App__header-mini {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.App__header-main {
+  font-size: 60px;
+  font-weight: 750;
+  color: #373A56;
+  padding-top: 2%;
+}
+
+.App__header-sub {
+  color: #373A56;
+  font-size: 24px;
+  margin-top: 2%;
+}
+
+.App__body {
+  color: #A6A6B4;
+  font-size: 15px;
+  margin: 0%;
+  padding: 0;
+  margin-top: 0.5%;
+}
+
+.App__button-subscribe {
+  background-color: #FBBC89;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  font-size: 15px;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 4%;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.App__button-subscribe:hover {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(254, 145, 77, 0.7);
+}
+
+.App__image {
+  padding-top: 5%;
+  width: 90%;
+}
+
+.App__right {
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .App__header-mini {
+    font-size: 20px;
+  }
+
+  .App__header-main {
+    font-size: 80px;
+  }
+
+  .App__header-subMain {
+    font-size: 20px;
+  }
+
+  .App__button-subscribe {
+    margin-top: 4%;
+  }
+
+  .App__mobile-container {
+    width: 100%;
+    text-align: left;
+  }
+
+  .App__image {
+    margin: auto;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .faqTitle{
+
+    font-size: 40px;
+    font-weight: 750;
+    color: #373A56;
+
+  }
+
+  /* /* .primaryFaq{
+    font-size: 30px;
+  } */
+  .subfaqtitle{
+    font-size: 30px;
+  }
+  .title{
+    font-size: 30px;
+  }
+}

@@ -2,12 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import { Button } from 'antd';
 import './App.css';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Subscribe from './components/Subscribe';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
-import Faq from './components/Faq';
-import Sponsors from './components/Sponsors';
 
 
 function App() {
@@ -16,8 +14,6 @@ function App() {
           <Navbar />
           <Home />
           <About />
-          <Faq />
-          <Sponsors/>
       </div>
   );
 }
