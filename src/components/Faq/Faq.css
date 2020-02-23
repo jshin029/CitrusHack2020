@@ -14,3 +14,52 @@
   text-align: center;
   width: 100%;
 }
+
+.Faq__title {
+  width: 100%;
+  text-align: center;
+}
+
+.Faq__col {
+  text-align: center;
+}
+
+.Faq__inner_container {
+  margin: auto;
+  width: 86%;
+  box-shadow: 0px 2px 15px rgba(129, 129, 129, 0.25);
+  border-radius: 10px;
+}
+
+.Faq__inner_title {
+  padding-top: 6%;
+  font-weight: 700;
+  color: #373A56;
+  font-size: 26px;
+}
+
+.Faq__inner_text {
+  color: #373A56;
+  font-weight: 100;
+  font-size: 14px;
+  padding: 10%;
+  padding-top: 1%;
+}
+
+.Faq__more {
+  font-size: 14px;
+  padding: 4%;
+}
+
+.Faq__more_container {
+  width: 100%;
+  text-align: center;
+}
+
+.Faq__more_inner {
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid green;
+  vertical-align: middle;
+  align-items: center;
+}
