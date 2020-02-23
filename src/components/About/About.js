@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import citrusAbout from '../assets/Citrus_ICON@400x-8.png';
 import aboutGraphic from '../assets/vortex1.svg';
 
 function About() {

@@ -10,7 +10,6 @@ const hero = require('../assets/herographicBG.png')
 class Home extends Component {
 
     render() {
-
         return (
             <div className="container-fluid App">
                 <div className="row">
@@ -22,7 +21,7 @@ class Home extends Component {
                         <h2 className="App__header-sub">CONNECT . HACK . LEARN .</h2>
                         <p className="App__body"># Orbach Library @ 5PM</p>
                         <p className="App__body"># April 25th - 26th</p>
-          
+
                         <div className="App__mobile-container">
                             <a href="https://citrus-hack.typeform.com/to/ygXesI">
                             <button className="App__button-subscribe" >Register Now</button>

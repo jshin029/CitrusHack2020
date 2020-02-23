@@ -1,0 +1,16 @@
+.Faq {
+  width: 100vw;
+  height: 90vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.Faq__header {
+  font-weight: 750;
+  color: #373A56;
+  font-size: 45px;
+  text-align: center;
+  width: 100%;
+}
