@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import { Button } from 'antd';
 import './App.css';
 import Home from './components/Home/Home';
-import Subscribe from './components/Subscribe';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Faq from './components/Faq/Faq';
