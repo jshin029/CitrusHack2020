@@ -74,9 +74,7 @@ class Faq extends Component {
             </div>
           </div>
           <div className="Faq__more_container">
-            <div className="Faq__more_inner">
-              <h1 className="Faq__more">More Questions?</h1>
-            </div>
+              <h1 className="Faq__more">MORE QUESTIONS?</h1>
           </div>
         </div>
       </div>
