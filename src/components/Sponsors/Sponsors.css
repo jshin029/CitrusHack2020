@@ -1,3 +1,7 @@
+.Sponsor__parent {
+  width: 100vw;
+  height: 50vh;
+}
 .Sponsor__header {
   font-weight: 750;
   color: #373A56;

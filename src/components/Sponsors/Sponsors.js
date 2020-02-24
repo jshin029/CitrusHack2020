@@ -20,7 +20,7 @@ class Sponsors extends Component {
 
     render() {
         return (
-            <div>
+            <div className="Sponsor__parent">
               <h1 className="Sponsor__header">Sponsors</h1>
               <div className="Sponsor__container">
                 <a href="https://aspb.ucr.edu/"><img className="asucr" src={asucr}></img></a>

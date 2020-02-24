@@ -1,7 +1,5 @@
 .About__section {
   width: 100vw;
-  height: 90vh;
-  overflow: hidden;
 }
 
 .About__header {
@@ -26,7 +24,7 @@
 
 .About__image {
   float: right;
-  width: 88%;
+  width: 82%;
 }
 
 .About__boxes {

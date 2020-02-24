@@ -1,19 +1,28 @@
+.app {
+  height: 100%;
+}
+
 .App__footer {
   margin-top: 5%;
-  width: 100%;
-  height: 45vh;
+  width: 100vw;
+  height: 90%;
   text-align: center;
-  background-image: url("./components/assets/citrus-footer.svg");
 }
 
 
 .App__icon {
-  font-size: 20px;
-  color: white;
+  z-index: 10000;
+  font-size: 22px;
+  color: #373A56;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
 }
 
 .App__icon:hover {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(55, 58, 86, 0.4);
+}
+
+.App__footer_img {
+  width: 90%;
+  margin: auto;
 }

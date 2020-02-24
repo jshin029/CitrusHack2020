@@ -20,20 +20,7 @@ function App() {
           <div id="faq"><Faq /></div>
           <div id="sponsors"><Sponsors /></div>
           <div className="App__footer">
-            <div style={{paddingTop: '20%'}}>
-              <a href="https://www.facebook.com/cutiehack/">
-                <Icon className="App__icon" type="facebook" />
-              </a>
-              <a href="https://www.instagram.com/citrushack_ucr/">
-                <Icon className="App__icon" style={{marginRight: '0.5%', marginLeft: '1%'}} type="instagram" />
-              </a>
-              <a href="https://twitter.com/citrushack">
-                <Icon className="App__icon" style={{marginRight: '1%', marginLeft: '0.5%'}} type="twitter" />
-              </a>
-              <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=citrushack@gmail.com'">
-                <Icon className="App__icon" type="mail" />
-              </a>
-            </div>
+            <img className="App__footer_img" src={footerBg} />
           </div>
       </div>
   );
