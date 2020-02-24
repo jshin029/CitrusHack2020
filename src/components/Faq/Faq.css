@@ -51,20 +51,25 @@
 
 .Faq__more {
   font-size: 14px;
-  padding: 4%;
+  font-weight: 750;
+  color: #FBBC89;
+  padding: 1.2%;
+  border-radius: 40px;
+  border: 1px solid #FBBC89;
+  display: inline-block;
+  margin-top: 2%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.Faq__more:hover {
+  color: rgba(251, 188, 137, 0.5);
+  border-color: rgba(251, 188, 137, 0.5);
 }
 
 .Faq__more_container {
   width: 100%;
   text-align: center;
-}
-
-.Faq__more_inner {
-  margin: auto;
-  border-radius: 10px;
-  border: 1px solid green;
-  vertical-align: middle;
-  align-items: center;
 }
 
 @keyframes moveUpDown {
