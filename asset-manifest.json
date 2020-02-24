@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5033f0a3.chunk.css",
+    "main.css": "/static/css/main.49f61886.chunk.css",
     "main.js": "/static/js/main.d55994e1.chunk.js",
     "main.js.map": "/static/js/main.d55994e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fc56509.js",
@@ -9,10 +9,10 @@
     "static/js/2.c2b445eb.chunk.js": "/static/js/2.c2b445eb.chunk.js",
     "static/js/2.c2b445eb.chunk.js.map": "/static/js/2.c2b445eb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.39834a1b5c5c1795c0c29e7e006f6a14.js": "/precache-manifest.39834a1b5c5c1795c0c29e7e006f6a14.js",
+    "precache-manifest.46c2b2d9d2b8a0ea240a486df1bc63f5.js": "/precache-manifest.46c2b2d9d2b8a0ea240a486df1bc63f5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.81310d1a.chunk.css.map": "/static/css/2.81310d1a.chunk.css.map",
-    "static/css/main.5033f0a3.chunk.css.map": "/static/css/main.5033f0a3.chunk.css.map",
+    "static/css/main.49f61886.chunk.css.map": "/static/css/main.49f61886.chunk.css.map",
     "static/media/ASPB COSPO Logo.png": "/static/media/ASPB COSPO Logo.b89bcb67.png",
     "static/media/GCAP Logo_17_BW.png": "/static/media/GCAP Logo_17_BW.92d3df1f.png",
     "static/media/beans 1.svg": "/static/media/beans 1.75ac0886.svg",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.4fc56509.js",
     "static/css/2.81310d1a.chunk.css",
     "static/js/2.c2b445eb.chunk.js",
-    "static/css/main.5033f0a3.chunk.css",
+    "static/css/main.49f61886.chunk.css",
     "static/js/main.d55994e1.chunk.js"
   ]
 }
