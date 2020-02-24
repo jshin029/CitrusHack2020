@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from './assets/logo.svg';
 import { Button } from 'antd';
-import './css/Subscribe.css';
 import Parser from 'html-react-parser';
 var mailchimpCode = `<!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">

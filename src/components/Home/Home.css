@@ -109,3 +109,18 @@
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 414px){
+
+
+  .App__right{
+    padding-left: 10%;
+  }
+  .App__header-main {
+    font-size: 50px;
+  }
+
+
+
+
+}
