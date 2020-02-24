@@ -29,18 +29,21 @@
   width: 86%;
   box-shadow: 0px 2px 15px rgba(129, 129, 129, 0.25);
   border-radius: 10px;
+  background-color: #412e72;
+  animation: moveUpDown 4s linear infinite;
+  position: relative
 }
 
 .Faq__inner_title {
   padding-top: 6%;
   font-weight: 700;
-  color: #373A56;
+  color: white;
   font-size: 26px;
 }
 
 .Faq__inner_text {
-  color: #373A56;
-  font-weight: 100;
+  color: white;
+  font-weight: 200;
   font-size: 14px;
   padding: 10%;
   padding-top: 1%;
@@ -62,4 +65,13 @@
   border: 1px solid green;
   vertical-align: middle;
   align-items: center;
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 20px;
+  }
 }
