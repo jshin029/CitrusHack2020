@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Button } from 'antd';
+import { Button, Icon } from 'antd';
 import './App.css';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
@@ -10,6 +10,7 @@ import Sponsors from './components/Sponsors/Sponsors';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Footer from './components/Footer/Footer';
 
+const footerBg = require('./components/assets/citrus-footer.svg');
 
 function App() {
   return (
@@ -19,7 +20,22 @@ function App() {
           <div id="about"><About /></div>
           <div id="faq"><Faq /></div>
           <div id="sponsors"><Sponsors /></div>
-          {/* <div id="footer"><Footer /></div> */}
+          <div className="app__footer">
+            <div style={{paddingTop: '20%'}}>
+              <a href="https://www.facebook.com/cutiehack/">
+                <Icon className="Footer__icon" type="facebook" />
+              </a>
+              <a href="https://www.instagram.com/citrushack_ucr/">
+                <Icon className="Footer__icon" style={{marginRight: '0.5%', marginLeft: '1%'}} type="instagram" />
+              </a>
+              <a href="https://twitter.com/citrushack">
+                <Icon className="Footer__icon" style={{marginRight: '1%', marginLeft: '0.5%'}} type="twitter" />
+              </a>
+              <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=citrushack@gmail.com'">
+                <Icon className="Footer__icon" type="mail" />
+              </a>
+            </div>
+          </div>
       </div>
   );
 }

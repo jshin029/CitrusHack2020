@@ -11,20 +11,20 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="container-fluid App">
+            <div className="container-fluid Home">
                 <div className="row">
                   <div className="col-lg-7 container-fluid">
-                    <img className="App__image" src={hero}></img>
+                    <img className="Home__image" src={hero}></img>
                   </div>
-                    <div className="col-lg-5 App__right">
-                        <h2 className="App__header-main">Citrus Hack 2020</h2>
-                        <h2 className="App__header-sub">CONNECT . HACK . LEARN .</h2>
-                        <p className="App__body"># Orbach Library @ 5PM</p>
-                        <p className="App__body"># April 25th - 26th</p>
+                    <div className="col-lg-5 Home__right">
+                        <h2 className="Home__header-main">Citrus Hack 2020</h2>
+                        <h2 className="Home__header-sub">CONNECT . HACK . LEARN .</h2>
+                        <p className="Home__body"># Orbach Library @ 5PM</p>
+                        <p className="Home__body"># April 25th - 26th</p>
 
-                        <div className="App__mobile-container">
+                        <div className="Home__mobile-container">
                             <a href="https://citrus-hack.typeform.com/to/ygXesI">
-                            <button className="App__button-subscribe" >Register Now</button>
+                            <button className="Home__button-subscribe" >Register Now</button>
                             </a>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-.App {
+.Home {
   width: 100vw;
   height: 100vh;
   padding: 0%;
@@ -12,20 +12,20 @@
   font-weight: 300;
 }
 
-.App__header-main {
+.Home__header-main {
   font-size: 60px;
   font-weight: 750;
   color: #373A56;
   padding-top: 2%;
 }
 
-.App__header-sub {
+.Home__header-sub {
   color: #373A56;
   font-size: 24px;
   margin-top: 2%;
 }
 
-.App__body {
+.Home__body {
   color: #A6A6B4;
   font-size: 15px;
   margin: 0%;
@@ -33,7 +33,7 @@
   margin-top: 0.5%;
 }
 
-.App__button-subscribe {
+.Home__button-subscribe {
   background-color: #FBBC89;
   color: white;
   border: none;
@@ -54,49 +54,47 @@
   background-color: rgba(254, 145, 77, 0.7);
 }
 
-.App__image {
+.Home__image {
   padding-top: 5%;
   width: 90%;
 }
 
-.App__right {
+.Home__right {
   padding-top: 10%;
 }
 
 @media only screen and (max-width: 600px) {
-  .App__header-mini {
+  .Home__header-mini {
     font-size: 20px;
   }
 
-  .App__header-main {
+  .Home__header-main {
     font-size: 80px;
   }
 
-  .App__header-subMain {
+  .Home__header-subMain {
     font-size: 20px;
   }
 
-  .App__button-subscribe {
+  .Home__button-subscribe {
     margin-top: 4%;
   }
 
-  .App__mobile-container {
+  .Home__mobile-container {
     width: 100%;
     text-align: left;
   }
 
-  .App__image {
+  .Home__image {
     margin: auto;
     width: 50%;
     margin-left: 25%;
   }
 
   .faqTitle{
-
     font-size: 40px;
     font-weight: 750;
     color: #373A56;
-
   }
 
   /* /* .primaryFaq{
