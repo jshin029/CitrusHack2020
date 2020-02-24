@@ -4,6 +4,8 @@ import { Icon } from 'antd';
 import AOS from 'aos';
 import './Faq.css';
 
+const dots3 = require('../assets/dots3.svg');
+
 class Faq extends Component {
   render(){
     return(
@@ -39,6 +41,7 @@ class Faq extends Component {
               <h1 className="Faq__inner_title">What should I bring?</h1>
               <p className="Faq__inner_text">Student IDs are required. Consider bringing a hacking machine, headphones, and computer peripherals. Feel free to bring your own parts as well but note that soldering is not allowed at Citrus Hack.</p>
             </div>
+            <img className="Faq__dots" src={dots3} />
           </div>
         </div>
       </div>

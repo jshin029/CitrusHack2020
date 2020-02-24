@@ -11,16 +11,24 @@
   margin-top: 2%;
 }
 
+.Sponsor__planet {
+  position: absolute;
+  left: 6%;
+}
+
 .asucr {
   width: 25%;
 }
 
 .beans {
+  margin-left: 2%;
+  margin-right: 2%;
   width: 14%;
 }
 
 .blsp {
   width: 40%;
+  margin-right: 2%;
 }
 
 .wa {

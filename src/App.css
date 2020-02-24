@@ -1,7 +1,19 @@
-.app__footer {
+.App__footer {
   margin-top: 5%;
   width: 100%;
   height: 45vh;
   text-align: center;
   background-image: url("./components/assets/citrus-footer.svg");
+}
+
+
+.App__icon {
+  font-size: 20px;
+  color: white;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.App__icon:hover {
+  color: rgba(255, 255, 255, 0.4);
 }

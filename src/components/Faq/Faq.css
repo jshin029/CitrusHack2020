@@ -72,6 +72,11 @@
   text-align: center;
 }
 
+.Faq__dots {
+  position: absolute;
+  left: 6%;
+}
+
 @keyframes moveUpDown {
   0%, 100% {
     bottom: 0;

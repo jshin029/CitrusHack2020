@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './Sponsors.css';
 
-const asucr = require('../assets/ASPB COSPO Logo.png')
-const beans = require('../assets/beans 1.svg')
-const blsp = require('../assets/bslp 1.svg')
-const GCAP = require('../assets/GCAP Logo_17_BW.png')
-const wa = require('../assets/wolfram 2.svg')
-const xyz = require('../assets/xyz 1.svg')
+const asucr = require('../assets/ASPB COSPO Logo.png');
+const beans = require('../assets/beans 1.svg');
+const blsp = require('../assets/bslp 1.svg');
+const GCAP = require('../assets/GCAP Logo_17_BW.png');
+const wa = require('../assets/wolfram 2.svg');
+const xyz = require('../assets/xyz 1.svg');
+const planet = require('../assets/planet.svg');
 
 class Sponsors extends Component {
 
@@ -29,6 +30,7 @@ class Sponsors extends Component {
               <div className="Sponsor__container">
                 <a href="https://www.blackstonelaunchpad.org/"><img className="blsp" src={blsp}></img></a>
                 <a href="https://gen.xyz/"><img className="xyz" src={xyz}></img></a>
+                <img className="Sponsor__planet" src={planet} />
               </div>
             </div>
         )
