@@ -24,7 +24,7 @@ class Home extends Component {
 
                         <div className="Home__mobile-container">
                             <a href="https://citrus-hack.typeform.com/to/ygXesI">
-                            <button className="Home__button-subscribe" >Register Now</button>
+                            <button className="Home__button-subscribe">REGISTER NOW</button>
                             </a>
                         </div>
                     </div>

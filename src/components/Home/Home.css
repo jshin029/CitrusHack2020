@@ -44,12 +44,14 @@
   padding-top: 2%;
   padding-bottom: 2%;
   margin-top: 4%;
+  font-weight: 750;
+  letter-spacing: 2px;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
   cursor: pointer;
 }
 
-.App__button-subscribe:hover {
+.Home__button-subscribe:hover {
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(254, 145, 77, 0.7);
 }
