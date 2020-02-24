@@ -31,7 +31,6 @@
   box-shadow: 0px 2px 15px rgba(129, 129, 129, 0.25);
   border-radius: 30px;
   background-color: #412e72;
-  animation: moveUpDown 4s linear infinite;
   position: relative
 }
 
@@ -78,6 +77,6 @@
     bottom: 0;
   }
   50% {
-    bottom: 20px;
+    bottom: 15px;
   }
 }
