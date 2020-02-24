@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.644bde43.chunk.css",
-    "main.js": "/static/js/main.ebad07c6.chunk.js",
-    "main.js.map": "/static/js/main.ebad07c6.chunk.js.map",
+    "main.css": "/static/css/main.ccc2ff6c.chunk.css",
+    "main.js": "/static/js/main.d55994e1.chunk.js",
+    "main.js.map": "/static/js/main.d55994e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fc56509.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fc56509.js.map",
     "static/css/2.81310d1a.chunk.css": "/static/css/2.81310d1a.chunk.css",
-    "static/js/2.d6fe290d.chunk.js": "/static/js/2.d6fe290d.chunk.js",
-    "static/js/2.d6fe290d.chunk.js.map": "/static/js/2.d6fe290d.chunk.js.map",
+    "static/js/2.c2b445eb.chunk.js": "/static/js/2.c2b445eb.chunk.js",
+    "static/js/2.c2b445eb.chunk.js.map": "/static/js/2.c2b445eb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f1a0f09868cccec6e21ed0fa1de311f0.js": "/precache-manifest.f1a0f09868cccec6e21ed0fa1de311f0.js",
+    "precache-manifest.142d68ac884aa5d4fb1f81caac5b8d49.js": "/precache-manifest.142d68ac884aa5d4fb1f81caac5b8d49.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.81310d1a.chunk.css.map": "/static/css/2.81310d1a.chunk.css.map",
-    "static/css/main.644bde43.chunk.css.map": "/static/css/main.644bde43.chunk.css.map",
+    "static/css/main.ccc2ff6c.chunk.css.map": "/static/css/main.ccc2ff6c.chunk.css.map",
     "static/media/ASPB COSPO Logo.png": "/static/media/ASPB COSPO Logo.b89bcb67.png",
     "static/media/GCAP Logo_17_BW.png": "/static/media/GCAP Logo_17_BW.92d3df1f.png",
     "static/media/beans 1.svg": "/static/media/beans 1.75ac0886.svg",
@@ -24,15 +24,15 @@
     "static/media/herographicBG.png": "/static/media/herographicBG.4bdf00b6.png",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/planet.svg": "/static/media/planet.212c293f.svg",
-    "static/media/vortex1.svg": "/static/media/vortex1.818b4d8c.svg",
+    "static/media/vortex1.svg": "/static/media/vortex1.78c29926.svg",
     "static/media/wolfram 2.svg": "/static/media/wolfram 2.a1f08bce.svg",
     "static/media/xyz 1.svg": "/static/media/xyz 1.d94226ca.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4fc56509.js",
     "static/css/2.81310d1a.chunk.css",
-    "static/js/2.d6fe290d.chunk.js",
-    "static/css/main.644bde43.chunk.css",
-    "static/js/main.ebad07c6.chunk.js"
+    "static/js/2.c2b445eb.chunk.js",
+    "static/css/main.ccc2ff6c.chunk.css",
+    "static/js/main.d55994e1.chunk.js"
   ]
 }
