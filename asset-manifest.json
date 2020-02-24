@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.49f61886.chunk.css",
-    "main.js": "/static/js/main.d55994e1.chunk.js",
-    "main.js.map": "/static/js/main.d55994e1.chunk.js.map",
+    "main.css": "/static/css/main.b0999e3d.chunk.css",
+    "main.js": "/static/js/main.26b0b071.chunk.js",
+    "main.js.map": "/static/js/main.26b0b071.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fc56509.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fc56509.js.map",
     "static/css/2.81310d1a.chunk.css": "/static/css/2.81310d1a.chunk.css",
-    "static/js/2.c2b445eb.chunk.js": "/static/js/2.c2b445eb.chunk.js",
-    "static/js/2.c2b445eb.chunk.js.map": "/static/js/2.c2b445eb.chunk.js.map",
+    "static/js/2.a6a144d1.chunk.js": "/static/js/2.a6a144d1.chunk.js",
+    "static/js/2.a6a144d1.chunk.js.map": "/static/js/2.a6a144d1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.46c2b2d9d2b8a0ea240a486df1bc63f5.js": "/precache-manifest.46c2b2d9d2b8a0ea240a486df1bc63f5.js",
+    "precache-manifest.ff0043925d558aa9d012b7aa2067230d.js": "/precache-manifest.ff0043925d558aa9d012b7aa2067230d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.81310d1a.chunk.css.map": "/static/css/2.81310d1a.chunk.css.map",
-    "static/css/main.49f61886.chunk.css.map": "/static/css/main.49f61886.chunk.css.map",
+    "static/css/main.b0999e3d.chunk.css.map": "/static/css/main.b0999e3d.chunk.css.map",
     "static/media/ASPB COSPO Logo.png": "/static/media/ASPB COSPO Logo.b89bcb67.png",
     "static/media/GCAP Logo_17_BW.png": "/static/media/GCAP Logo_17_BW.92d3df1f.png",
     "static/media/beans 1.svg": "/static/media/beans 1.75ac0886.svg",
@@ -24,6 +24,7 @@
     "static/media/herographicBG.png": "/static/media/herographicBG.4bdf00b6.png",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/planet.svg": "/static/media/planet.212c293f.svg",
+    "static/media/rocket-soft.svg": "/static/media/rocket-soft.b61f0510.svg",
     "static/media/vortex1.svg": "/static/media/vortex1.78c29926.svg",
     "static/media/wolfram 2.svg": "/static/media/wolfram 2.a1f08bce.svg",
     "static/media/xyz 1.svg": "/static/media/xyz 1.d94226ca.svg"
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.4fc56509.js",
     "static/css/2.81310d1a.chunk.css",
-    "static/js/2.c2b445eb.chunk.js",
-    "static/css/main.49f61886.chunk.css",
-    "static/js/main.d55994e1.chunk.js"
+    "static/js/2.a6a144d1.chunk.js",
+    "static/css/main.b0999e3d.chunk.css",
+    "static/js/main.26b0b071.chunk.js"
   ]
 }
