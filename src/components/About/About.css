@@ -64,3 +64,14 @@
   font-weight: 300;
   font-size: 18px;
 }
+
+.About__dots {
+  position: absolute;
+  left: 6%;
+}
+
+.About__dots2 {
+  position: absolute;
+  top: 0;
+  right: -10%;
+}

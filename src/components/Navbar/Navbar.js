@@ -50,7 +50,15 @@ class Navbar extends Component {
               ><button  data-scroll href="#Faq" className="buttons">FAQ</button>     
                 
                 </Link>
-                <button  data-scroll href="#Sponsors" className="buttons">SPONSORS</button>
+                <Link
+                activeClass="active"
+                to="sponsors"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              ><button  data-scroll href="#Sponsors" className="buttons">SPONSORS</button></Link>
+                
             </div>
         );
     }
