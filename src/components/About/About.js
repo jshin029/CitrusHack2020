@@ -4,6 +4,7 @@ import aboutGraphic from '../assets/vortex1.svg';
 
 const dots = require('../assets/dots.svg');
 const dots2 = require('../assets/dots2.svg');
+const rocket = require('../assets/rocket-soft.svg');
 
 function About() {
   return (
@@ -20,19 +21,19 @@ function About() {
               <p className="About__box_text">Year Founded</p>
             </div>
             <div className="col-3 About__box">
-              <h1 className="About__box_title2">350</h1>
+              <h1 className="About__box_title2">350+</h1>
               <p className="About__box_text">Our Hackers</p>
             </div>
             <div className="col-3 About__box">
               <h1 className="About__box_title3">24</h1>
-              <p className="About__box_text">Duration</p>
+              <p className="About__box_text">Hours</p>
             </div>
           </div>
           <img className="About__dots" src={dots}></img>
         </div>
         <div className="col-5">
           <div className="About__imageContainer">
-            <img className="About__image" src={aboutGraphic} alt=""/>
+            <img className="About__image" src={rocket} alt=""/>
           </div>
         </div>
       </div>

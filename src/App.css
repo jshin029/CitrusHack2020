@@ -10,7 +10,6 @@
   text-align: center;
 }
 
-
 .App__icon {
   z-index: 10000;
   font-size: 22px;
@@ -26,4 +25,12 @@
 .App__footer_img {
   width: 80%;
   margin: auto;
+}
+
+.App__footer_body {
+  margin-top: 1%;
+}
+
+.App__footer_text {
+  color: #373A56;
 }

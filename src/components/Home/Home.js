@@ -26,20 +26,7 @@ class Home extends Component {
                             <button className="Home__button-subscribe">REGISTER NOW</button>
                             </a>
                         </div>
-                        <div style={{marginLeft:'0%',marginTop: '4%'}}>
-                          <a href="https://www.facebook.com/cutiehack/">
-                            <Icon className="App__icon" type="facebook" />
-                          </a>
-                          <a href="https://www.instagram.com/citrushack_ucr/">
-                            <Icon className="App__icon" style={{marginRight: '3%', marginLeft: '6%'}} type="instagram" />
-                          </a>
-                          <a href="https://twitter.com/citrushack">
-                            <Icon className="App__icon" style={{marginRight: '6%', marginLeft: '3%'}} type="twitter" />
-                          </a>
-                          <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=citrushack@gmail.com'">
-                            <Icon className="App__icon" type="mail" />
-                          </a>
-                        </div>
+        
                     </div>
                 </div>
                 <div className="section3">

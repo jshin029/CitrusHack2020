@@ -1,7 +1,7 @@
 .Faq {
   width: 100vw;
   height: 85vh;
-  margin-top: 2%;
+  margin-top: 10%;
 }
 
 .flex {
@@ -10,7 +10,7 @@
 
 .Faq__header {
   font-weight: 750;
-  color: #373A56;
+  color: #412B73;
   font-size: 45px;
   text-align: center;
   width: 100%;
@@ -25,24 +25,33 @@
   text-align: center;
 }
 
-.Faq__inner_container {
+/* .Faq__inner_container {
   margin: auto;
   width: 86%;
   box-shadow: 0px 2px 15px rgba(129, 129, 129, 0.25);
   border-radius: 30px;
   background-color: #412e72;
   position: relative
+} */
+
+.Faq__inner_container {
+  margin: auto;
+  width: 86%;
+  box-shadow: 0px 2px 15px rgba(129, 129, 129, 0.25);
+  border-radius: 30px;
+  background-color: white;
+  position: relative
 }
 
 .Faq__inner_title {
   padding-top: 6%;
   font-weight: 700;
-  color: white;
+  color: #373A56;
   font-size: 26px;
 }
 
 .Faq__inner_text {
-  color: white;
+  color: #373A56;
   font-weight: 200;
   font-size: 14px;
   padding: 10%;

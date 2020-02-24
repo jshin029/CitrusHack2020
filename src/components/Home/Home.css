@@ -6,16 +6,10 @@
   overflow: hidden;
 }
 
-.App__header-mini {
-  margin: 0;
-  font-size: 25px;
-  font-weight: 300;
-}
-
 .Home__header-main {
   font-size: 60px;
   font-weight: 750;
-  color: #373A56;
+  color: #412B73;
   padding-top: 2%;
 }
 

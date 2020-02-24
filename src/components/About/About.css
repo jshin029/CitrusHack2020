@@ -4,7 +4,7 @@
 
 .About__header {
   font-weight: 750;
-  color: #373A56;
+  color: #412B73;
   padding-top: 2%;
   font-size: 45px;
 }
@@ -20,6 +20,7 @@
 
 .About__imageContainer {
   width: 100%;
+  padding-right: 5%;
 }
 
 .About__image {
@@ -39,7 +40,9 @@
   margin-left: 2%;
   text-align: center;
   padding: 4%;
-  border-radius: 10px;
+  padding-bottom: 3%;
+  border-radius: 30px;
+  background-color: white;
 }
 
 .About__box_title1, .About__box_title2, .About__box_title3 {
@@ -47,15 +50,21 @@
 }
 
 .About__box_title1 {
-  color: #412B73
+  color: #412B73;
+  font-weight: 750;
+  margin: 0;
 }
 
 .About__box_title2 {
   color: #ABC13B;
+  font-weight: 750;
+  margin: 0;
 }
 
 .About__box_title3 {
   color: #FBBC89;
+  font-weight: 750;
+  margin: 0;
 }
 
 .About__box_text {
