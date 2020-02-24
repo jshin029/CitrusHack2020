@@ -17,7 +17,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className="navbar__container">
-                           
+
                 <Link
                 activeClass="active"
                 to="home"
@@ -25,11 +25,11 @@ class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
-              ><button  data-scroll href="#Home" className="buttons">   
+              ><button  data-scroll href="#Home" className="buttons">
                   HOME
                   </button>
                 </Link>
-              
+
                   <Link
                 activeClass="active"
                 to="about"
@@ -38,7 +38,7 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                <button  data-scroll href="#About" className="buttons">    ABOUT</button>
+                <button  data-scroll href="#About" className="buttons">ABOUT</button>
                 </Link>
                  <Link
                 activeClass="active"
@@ -47,8 +47,8 @@ class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
-              ><button  data-scroll href="#Faq" className="buttons">FAQ</button>     
-                
+              ><button  data-scroll href="#Faq" className="buttons">FAQ</button>
+
                 </Link>
                 <Link
                 activeClass="active"
@@ -58,7 +58,7 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}
               ><button  data-scroll href="#Sponsors" className="buttons">SPONSORS</button></Link>
-                
+
             </div>
         );
     }

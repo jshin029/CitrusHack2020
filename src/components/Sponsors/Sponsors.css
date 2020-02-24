@@ -1,24 +1,32 @@
-
-/* .asucr{
-    padding-left: 20%
+.Sponsor__header {
+  font-weight: 750;
+  color: #373A56;
+  font-size: 45px;
+  text-align: center;
+  width: 100%;
 }
 
+.Sponsor__container {
+  text-align: center;
+  margin-top: 2%;
+}
 
-  .blsp {
-padding-left:20%
-  }
-  .xyz{
-      padding-left: 40%;
-     /* padding-right: 20%; */
-      /* width: 60%;
-  } */ 
+.asucr {
+  width: 25%;
+}
 
-  .beans {
+.beans {
+  width: 14%;
+}
 
-    width: 25%;
-    
-    }
+.blsp {
+  width: 40%;
+}
+
+.wa {
+  width: 30%;
+}
 
 .xyz{
-    width: 20%
+  width: 12%;
 }
