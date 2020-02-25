@@ -21,7 +21,7 @@ function About() {
               <p className="About__box_text">Year Founded</p>
             </div>
             <div className="col-3 About__box">
-              <h1 className="About__box_title2">350+</h1>
+              <h1 className="About__box_title2">400+</h1>
               <p className="About__box_text">Our Hackers</p>
             </div>
             <div className="col-3 About__box">

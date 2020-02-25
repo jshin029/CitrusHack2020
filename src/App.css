@@ -10,18 +10,6 @@
   text-align: center;
 }
 
-.App__icon {
-  z-index: 10000;
-  font-size: 22px;
-  color: #373A56;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
-}
-
-.App__icon:hover {
-  color: rgba(55, 58, 86, 0.4);
-}
-
 .App__footer_img {
   width: 80%;
   margin: auto;

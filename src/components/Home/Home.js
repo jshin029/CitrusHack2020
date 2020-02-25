@@ -20,13 +20,25 @@ class Home extends Component {
                         <h2 className="Home__header-sub">CONNECT . HACK . LEARN .</h2>
                         <p className="Home__body"># Orbach Science Library @ 11AM</p>
                         <p className="Home__body"># April 25th - 26th</p>
-
                         <div className="Home__mobile-container">
                             <a href="https://citrus-hack.typeform.com/to/ygXesI">
                             <button className="Home__button-subscribe">REGISTER NOW</button>
                             </a>
                         </div>
-        
+                        <div className="Home__social-container">
+                          <a href="https://www.facebook.com/cutiehack/">
+                            <Icon className="Home__icon" type="facebook" />
+                          </a>
+                          <a href="https://www.instagram.com/citrushack_ucr/">
+                            <Icon className="Home__icon" style={{marginRight: '3%', marginLeft: '6%'}} type="instagram" />
+                          </a>
+                          <a href="https://twitter.com/citrushack">
+                            <Icon className="Home__icon" style={{marginRight: '6%', marginLeft: '3%'}} type="twitter" />
+                          </a>
+                          <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=citrushack@gmail.com'">
+                            <Icon className="Home__icon" type="mail" />
+                          </a>
+                        </div>
                     </div>
                 </div>
                 <div className="section3">

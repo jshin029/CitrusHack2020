@@ -25,7 +25,7 @@ class Faq extends Component {
           <div className="col-4 Faq__col">
             <div className="Faq__inner_container" style={{marginTop: '8%', animation: `moveUpDown ${Math.floor(Math.random() * 5) + 2}s linear infinite`}}>
               <h1 className="Faq__inner_title">Who can attend?</h1>
-              <p className="Faq__inner_text">We welcome all undergraduate students from UCR, RCC, and CBU to attend. High school students in the surrounding area are also encouraged to attend!</p>
+              <p className="Faq__inner_text">We welcome all undergraduate students from UCR, RCC, and CBU to attend. </p>
             </div>
             <div className="Faq__inner_container" style={{marginTop: '14%', animation: `moveUpDown ${Math.floor(Math.random() * 5) + 2}s linear infinite`}}>
               <h1 className="Faq__inner_title">Is Citrus Hack free?</h1>
