@@ -21,6 +21,7 @@ class Sponsors extends Component {
     render() {
         return (
             <div className="Sponsor__parent">
+              <div className="notMobile">
               <h1 className="Sponsor__header">Sponsors</h1>
               <div className="Sponsor__container">
                 <a href="https://aspb.ucr.edu/"><img className="asucr" src={asucr}></img></a>
@@ -32,10 +33,31 @@ class Sponsors extends Component {
                 <a href="https://gen.xyz/"><img className="xyz" src={xyz}></img></a>
                 <img className="Sponsor__planet" src={planet} />
               </div>
+              </div>
+              <div className="sponsorsMobile">
+
+              <h1 className="Sponsor__header">Sponsors</h1>
+              <div className="Sponsor__container">
+                <a href="https://gen.xyz/"><img className="xyz" src={xyz}></img></a>
+              </div>
+              <div className="Sponsor__container">
+                <a href="https://aspb.ucr.edu/"><img className="asucr" src={asucr}></img></a>
+                <a href="https://www.badabeansnacks.com/"><img className="beans" src={beans}></img></a>
+               
+                 <img className="Sponsor__planet" src={planet} />
+              </div>
+              <div className="Sponsor__container">
+                <a href="https://www.wolframalpha.com/"><img className="wa" src={wa}></img></a>
+              </div>
+              <div className="Sponsor__container">
+                <a href="https://www.blackstonelaunchpad.org/"><img className="blsp" src={blsp}></img></a>
+              </div>
+              </div>
+              
             </div>
         )
     }
 }
 
-
+            
  export default Sponsors;

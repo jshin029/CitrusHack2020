@@ -24,6 +24,9 @@
 .Faq__col {
   text-align: center;
 }
+.faqMobile{
+  display: none;
+}
 
 /* .Faq__inner_container {
   margin: auto;
@@ -93,4 +96,11 @@
   50% {
     bottom: 15px;
   }
+}
+@media screen and (max-width: 414px){
+  .faq{display: none;}
+  .faqMobile{display: initial;}
+  .Faq__inner_title { text-align: center;}
+  .Faq {height: 180vh;}
+
 }

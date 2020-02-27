@@ -9,7 +9,7 @@ import Faq from './components/Faq/Faq';
 import Sponsors from './components/Sponsors/Sponsors';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-const footerBg = require('./components/assets/citrus-footer.svg');
+const footerBg = require('./components/assets/citrus-footer-new.svg');
 
 function App() {
   return (

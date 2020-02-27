@@ -1,3 +1,7 @@
+.sponsorsMobile{
+  display: none;
+}
+
 .Sponsor__parent {
   width: 100vw;
   height: 50vh;
@@ -41,4 +45,41 @@
 
 .xyz{
   width: 12%;
+}
+
+@media screen and (max-width: 414px){
+  .notMobile{
+    display: none;
+  }
+  .sponsorsMobile{
+    display: initial;
+  }
+  .Sponsor__parent {
+    height: 30vh;
+  }
+  .asucr {
+    width: 35%;
+  }
+  
+  .beans {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 25%;
+  }
+  
+  .blsp {
+    width: 62%;
+    margin-right: 0%;
+  }
+  
+  .wa {
+    width: 40%;
+  }
+  
+  .xyz{
+    width: 32%;
+  }
+
+
+
 }
