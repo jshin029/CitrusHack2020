@@ -22,13 +22,23 @@
 .App__footer_text {
   color: #373A56;
 }
+
+.App__banner {
+  width: 7%;
+  left: 4%;
+  position: absolute;
+  z-index: 10000;
+}
+
+
 @media screen and (max-width: 414px){
   .App__footer_img {
     margin-top: 30%;
     width: 230%;
     transform: translateX(-260px);
-
   }
 
-
+  .App__banner {
+    display: none;
+  }
 }

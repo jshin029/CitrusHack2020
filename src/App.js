@@ -14,6 +14,7 @@ const footerBg = require('./components/assets/citrus-footer-new.svg');
 function App() {
   return (
         <div className='app' style={{backgroundColor: '#ececee'}}>
+          <img className="App__banner" src={"https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-black.svg"}></img>
           <Navbar />
           <div id="home"><Home /></div>
           <div id="about"><About /></div>
