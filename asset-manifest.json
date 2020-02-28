@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0999e3d.chunk.css",
-    "main.js": "/static/js/main.26b0b071.chunk.js",
-    "main.js.map": "/static/js/main.26b0b071.chunk.js.map",
+    "main.css": "/static/css/main.d3e02b7f.chunk.css",
+    "main.js": "/static/js/main.cf3da7ae.chunk.js",
+    "main.js.map": "/static/js/main.cf3da7ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fc56509.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fc56509.js.map",
     "static/css/2.81310d1a.chunk.css": "/static/css/2.81310d1a.chunk.css",
-    "static/js/2.a6a144d1.chunk.js": "/static/js/2.a6a144d1.chunk.js",
-    "static/js/2.a6a144d1.chunk.js.map": "/static/js/2.a6a144d1.chunk.js.map",
+    "static/js/2.46c5eb46.chunk.js": "/static/js/2.46c5eb46.chunk.js",
+    "static/js/2.46c5eb46.chunk.js.map": "/static/js/2.46c5eb46.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ff0043925d558aa9d012b7aa2067230d.js": "/precache-manifest.ff0043925d558aa9d012b7aa2067230d.js",
+    "precache-manifest.dbc76f75bd2f8aaa0229d7468b06dda5.js": "/precache-manifest.dbc76f75bd2f8aaa0229d7468b06dda5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.81310d1a.chunk.css.map": "/static/css/2.81310d1a.chunk.css.map",
-    "static/css/main.b0999e3d.chunk.css.map": "/static/css/main.b0999e3d.chunk.css.map",
+    "static/css/main.d3e02b7f.chunk.css.map": "/static/css/main.d3e02b7f.chunk.css.map",
     "static/media/ASPB COSPO Logo.png": "/static/media/ASPB COSPO Logo.b89bcb67.png",
     "static/media/GCAP Logo_17_BW.png": "/static/media/GCAP Logo_17_BW.92d3df1f.png",
     "static/media/beans 1.svg": "/static/media/beans 1.75ac0886.svg",
     "static/media/bslp 1.svg": "/static/media/bslp 1.077db806.svg",
-    "static/media/citrus-footer.svg": "/static/media/citrus-footer.8415500f.svg",
+    "static/media/citrus-footer-new.svg": "/static/media/citrus-footer-new.8daca800.svg",
     "static/media/dots.svg": "/static/media/dots.ffc1fb88.svg",
     "static/media/dots2.svg": "/static/media/dots2.dc79dede.svg",
     "static/media/dots3.svg": "/static/media/dots3.4d8097b4.svg",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.4fc56509.js",
     "static/css/2.81310d1a.chunk.css",
-    "static/js/2.a6a144d1.chunk.js",
-    "static/css/main.b0999e3d.chunk.css",
-    "static/js/main.26b0b071.chunk.js"
+    "static/js/2.46c5eb46.chunk.js",
+    "static/css/main.d3e02b7f.chunk.css",
+    "static/js/main.cf3da7ae.chunk.js"
   ]
 }
