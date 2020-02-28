@@ -127,10 +127,29 @@
     padding-left: 10%;
   }
   .App__header-main {
-    font-size: 50px;
+    font-size: 30px;
+  }
+  .App__image {
+    
+    width: 80%;
+    padding-right: 40%;
   }
 
-
+  .Home__header-main {
+    text-align: center;
+  }
+  .Home__header-sub {
+    text-align: center;
+  }
+  .Home__body {
+    text-align: center;
+  }
+  .Home__social-container {
+    text-align: center;
+  }
+  .Home__mobile-container {
+    text-align: center !important;
+  }
 
 
 }
