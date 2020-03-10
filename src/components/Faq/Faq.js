@@ -25,21 +25,21 @@ class Faq extends Component {
           <div className="col-4 Faq__col">
             <div className="Faq__inner_container" style={{marginTop: '8%', animation: `moveUpDown ${Math.floor(Math.random() * 5) + 2}s linear infinite`}}>
               <h1 className="Faq__inner_title">Who can attend?</h1>
-              <p className="Faq__inner_text">We welcome all undergraduate students from UCR, RCC, and CBU to attend. </p>
+              <p className="Faq__inner_text">Any college or high school students of any major over 18 years of age from anywhere in the world are eligible (This includes graduate students). If you are enrolled at a UC campus but not yet 18, you are also eligible to participate. </p>
             </div>
             <div className="Faq__inner_container" style={{marginTop: '14%', animation: `moveUpDown ${Math.floor(Math.random() * 5) + 2}s linear infinite`}}>
               <h1 className="Faq__inner_title">Is Citrus Hack free?</h1>
-              <p className="Faq__inner_text">Absolutely! There is no cost to attend, but do bring your own hacking device(s)!</p>
+              <p className="Faq__inner_text">Absolutely! There is no cost to attend, but do bring your own hacking device(s)! Meals, refreshments, and snacks will be provided throughout the event. </p>
             </div>
           </div>
           <div className="col-4 Faq__col">
             <div className="Faq__inner_container" style={{animation: `moveUpDown ${Math.floor(Math.random() * 5) + 2}s linear infinite`}}>
-              <h1 className="Faq__inner_title">Is there free food?</h1>
-              <p className="Faq__inner_text">Yes! Meals, refreshments, and snacks will be provided throughout the event</p>
+              <h1 className="Faq__inner_title">Travel Reimbursements</h1>
+              <p className="Faq__inner_text">We will be providing travel reimbursements to any participants who is carpooling to the event with 3 or more people. Unfortunately, no buses will be provided this year. </p>
             </div>
             <div className="Faq__inner_container" style={{marginTop: '12%', animation: `moveUpDown ${Math.floor(Math.random() * 5) + 2}s linear infinite`}}>
               <h1 className="Faq__inner_title">What should I bring?</h1>
-              <p className="Faq__inner_text">Student IDs are required. Consider bringing a hacking machine, headphones, and computer peripherals. Feel free to bring your own parts as well but note that soldering is not allowed at Citrus Hack.</p>
+              <p className="Faq__inner_text">A valid student or government-issued ID is required for admission. Consider bringing a hacking machine (monitors, hardware kits, etc.), chargers,  headphones, and computer peripherals. Feel free to bring your own hardware parts as well. Soldering will be allowed at the event for a limited time. Make sure to bring a change of clothes, a toothbrush, and any other necessities. Don’t forget your sleeping bag if you plan on staying overnight! </p>
             </div>
             <img className="Faq__dots" src={dots3} />
           </div>

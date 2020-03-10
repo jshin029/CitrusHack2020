@@ -1,11 +1,11 @@
-.sponsorsMobile{
+.sponsorsMobile {
   display: none;
 }
 
 .Sponsor__parent {
   width: 100vw;
-  height: 50vh;
 }
+
 .Sponsor__header {
   font-weight: 750;
   color: #412B73;
@@ -43,8 +43,21 @@
   width: 30%;
 }
 
-.xyz{
+.xyz {
   width: 12%;
+}
+
+.library {
+  width: 20%;
+}
+
+.ieee {
+  width: 15%;
+}
+
+.acm {
+  width: 14%;
+  margin-left: 4%;
 }
 
 @media screen and (max-width: 414px){
@@ -60,26 +73,23 @@
   .asucr {
     width: 35%;
   }
-  
+
   .beans {
     margin-left: 0%;
     margin-right: 0%;
     width: 25%;
   }
-  
+
   .blsp {
     width: 62%;
     margin-right: 0%;
   }
-  
+
   .wa {
     width: 40%;
   }
-  
+
   .xyz{
     width: 32%;
   }
-
-
-
 }

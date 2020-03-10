@@ -5,6 +5,7 @@ import { Row, Container, Col } from 'react-bootstrap';
 import Parser from 'html-react-parser';
 import { Redirect } from 'react-router-dom';
 const hero = require('../assets/herographicBG.png');
+const mlh = require('../assets/mlh_black.png');
 
 class Home extends Component {
 
@@ -26,17 +27,20 @@ class Home extends Component {
                             </a>
                         </div>
                         <div className="Home__social-container">
-                          <a href="https://www.facebook.com/cutiehack/">
+                          <a href="https://www.facebook.com/CitrusHack/">
                             <Icon className="Home__icon" type="facebook" />
                           </a>
                           <a href="https://www.instagram.com/citrushack_ucr/">
                             <Icon className="Home__icon" style={{marginRight: '3%', marginLeft: '6%'}} type="instagram" />
                           </a>
                           <a href="https://twitter.com/citrushack">
-                            <Icon className="Home__icon" style={{marginRight: '6%', marginLeft: '3%'}} type="twitter" />
+                            <Icon className="Home__icon" style={{marginRight: '3%', marginLeft: '3%'}} type="twitter" />
                           </a>
                           <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=citrushack@gmail.com'">
-                            <Icon className="Home__icon" type="mail" />
+                            <Icon className="Home__icon" style={{marginRight: '6%', marginLeft: '3%'}}type="mail" />
+                          </a>
+                          <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
+                            <img style={{width: '6%'}} src={mlh}></img>
                           </a>
                         </div>
                     </div>
