@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.39e648b7.chunk.css",
-    "main.js": "/static/js/main.55c36a74.chunk.js",
-    "main.js.map": "/static/js/main.55c36a74.chunk.js.map",
+    "main.css": "/static/css/main.e6bf830e.chunk.css",
+    "main.js": "/static/js/main.6bddc063.chunk.js",
+    "main.js.map": "/static/js/main.6bddc063.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fc56509.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fc56509.js.map",
     "static/css/2.81310d1a.chunk.css": "/static/css/2.81310d1a.chunk.css",
-    "static/js/2.46c5eb46.chunk.js": "/static/js/2.46c5eb46.chunk.js",
-    "static/js/2.46c5eb46.chunk.js.map": "/static/js/2.46c5eb46.chunk.js.map",
+    "static/js/2.9f734290.chunk.js": "/static/js/2.9f734290.chunk.js",
+    "static/js/2.9f734290.chunk.js.map": "/static/js/2.9f734290.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.afab7e4c214742a68e4353adf0eeaaf3.js": "/precache-manifest.afab7e4c214742a68e4353adf0eeaaf3.js",
+    "precache-manifest.8d228fb41964209c89a419498a45e8c5.js": "/precache-manifest.8d228fb41964209c89a419498a45e8c5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.81310d1a.chunk.css.map": "/static/css/2.81310d1a.chunk.css.map",
-    "static/css/main.39e648b7.chunk.css.map": "/static/css/main.39e648b7.chunk.css.map",
+    "static/css/main.e6bf830e.chunk.css.map": "/static/css/main.e6bf830e.chunk.css.map",
     "static/media/ASPB COSPO Logo.png": "/static/media/ASPB COSPO Logo.b89bcb67.png",
     "static/media/GCAP Logo_17_BW.png": "/static/media/GCAP Logo_17_BW.92d3df1f.png",
+    "static/media/acm.svg": "/static/media/acm.42d9fa88.svg",
     "static/media/beans 1.svg": "/static/media/beans 1.75ac0886.svg",
     "static/media/bslp 1.svg": "/static/media/bslp 1.077db806.svg",
     "static/media/citrus-footer-new.svg": "/static/media/citrus-footer-new.8daca800.svg",
@@ -22,7 +23,10 @@
     "static/media/dots2.svg": "/static/media/dots2.dc79dede.svg",
     "static/media/dots3.svg": "/static/media/dots3.4d8097b4.svg",
     "static/media/herographicBG.png": "/static/media/herographicBG.4bdf00b6.png",
+    "static/media/ieee.svg": "/static/media/ieee.1ce7bfd4.svg",
+    "static/media/library.png": "/static/media/library.164a9846.png",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
+    "static/media/mlh_black.png": "/static/media/mlh_black.71e9d41d.png",
     "static/media/planet.svg": "/static/media/planet.212c293f.svg",
     "static/media/rocket-soft.svg": "/static/media/rocket-soft.b61f0510.svg",
     "static/media/vortex1.svg": "/static/media/vortex1.78c29926.svg",
@@ -32,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.4fc56509.js",
     "static/css/2.81310d1a.chunk.css",
-    "static/js/2.46c5eb46.chunk.js",
-    "static/css/main.39e648b7.chunk.css",
-    "static/js/main.55c36a74.chunk.js"
+    "static/js/2.9f734290.chunk.js",
+    "static/css/main.e6bf830e.chunk.css",
+    "static/js/main.6bddc063.chunk.js"
   ]
 }
