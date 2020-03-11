@@ -62,7 +62,7 @@
 .Home__icon {
   z-index: 10000;
   font-size: 22px;
-  color: #373A56;
+  color: black;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
 }

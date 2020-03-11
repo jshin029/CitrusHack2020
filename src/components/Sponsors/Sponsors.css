@@ -24,6 +24,20 @@
   left: 6%;
 }
 
+.Sponsor__packet {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.Sponsor__key {
+  font-weight: 750;
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
 .asucr {
   width: 25%;
 }
@@ -59,6 +73,21 @@
   width: 14%;
   margin-left: 4%;
 }
+
+.creater {
+  width: 14%;
+}
+
+.zybooks {
+  width: 14%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.digital {
+  width: 20%;
+}
+
 
 @media screen and (max-width: 414px){
   .notMobile{
