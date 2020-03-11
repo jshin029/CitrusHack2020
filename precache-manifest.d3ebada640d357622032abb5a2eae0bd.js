@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a99f414c1deca241602b49b2263d7b97",
+    "revision": "85f95fb149d29a5998917f4d77bea687",
     "url": "/index.html"
   },
   {
-    "revision": "abd641fc781f0bebf143",
+    "revision": "81d2e45724f9b8f89db4",
     "url": "/static/css/2.81310d1a.chunk.css"
   },
   {
-    "revision": "0ddca867c740fdb32e9a",
-    "url": "/static/css/main.e6bf830e.chunk.css"
+    "revision": "9ffaec1a69d0623984eb",
+    "url": "/static/css/main.782030f7.chunk.css"
   },
   {
-    "revision": "abd641fc781f0bebf143",
-    "url": "/static/js/2.9f734290.chunk.js"
+    "revision": "81d2e45724f9b8f89db4",
+    "url": "/static/js/2.07349bcc.chunk.js"
   },
   {
-    "revision": "0ddca867c740fdb32e9a",
-    "url": "/static/js/main.6bddc063.chunk.js"
+    "revision": "9ffaec1a69d0623984eb",
+    "url": "/static/js/main.9ab12bed.chunk.js"
   },
   {
     "revision": "a995fd588ad4eb6e4592",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8daca8003b985aa7f89b995cdde81069",
     "url": "/static/media/citrus-footer-new.8daca800.svg"
+  },
+  {
+    "revision": "f1c137b889e55234cb0e6f8eeeecbe11",
+    "url": "/static/media/creater.f1c137b8.svg"
   },
   {
     "revision": "ffc1fb8884e282fe4aebba76c4fec40b",
@@ -98,5 +102,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d94226ca6e7ebce19eecd01bd7eed573",
     "url": "/static/media/xyz 1.d94226ca.svg"
+  },
+  {
+    "revision": "6243940c3db073224e21cc18bbc1c710",
+    "url": "/static/media/zybooks.6243940c.png"
   }
 ]);
