@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Faq from './components/Faq/Faq';
 import Sponsors from './components/Sponsors/Sponsors';
+import Tracks from './components/Tracks/Tracks';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const footerBg = require('./components/assets/citrus-footer-new.svg');
@@ -18,6 +19,7 @@ function App() {
           <Navbar />
           <div id="home"><Home /></div>
           <div id="about"><About /></div>
+          <div id="tracks"><Tracks /></div>
           <div id="faq"><Faq /></div>
           <div id="sponsors"><Sponsors /></div>
           <div className="App__footer">

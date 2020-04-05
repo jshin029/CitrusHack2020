@@ -1,0 +1,65 @@
+.Tracks__container {
+  width: 100%;
+  padding-top: 8%;
+}
+
+.Tracks__header {
+  font-weight: 750;
+  color: #412B73;
+  padding-top: 2%;
+  font-size: 45px;
+}
+
+.Tracks__jupiter {
+  width: 15%;
+  background-color: #E8E8E8;
+  border-radius: 4px;
+  padding: 2%;
+}
+
+.Tracks__saturn {
+  width: 15%;
+  background-color: #E8E8E8;
+  border-radius: 4px;
+  padding: 2%;
+}
+
+.Tracks__mars {
+  width: 15%;
+  background-color: #E8E8E8;
+  border-radius: 4px;
+  padding: 2%;
+}
+
+.Tracks__row {
+  display: flex;
+}
+
+.Tracks__row-header {
+  font-size: 20px;
+}
+
+.Tracks__row-body {
+  font-size: 12px;
+}
+
+.Tracks__description {
+  color: #373A56;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.Tracks__sub-header {
+  color: #373A56;
+  font-size: 30px;
+  margin-top: 4%;
+}
+
+.Tracks__inner-container {
+  background-color: white;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.Tracks__img-container {
+}
