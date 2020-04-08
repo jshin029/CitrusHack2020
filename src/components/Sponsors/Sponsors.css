@@ -90,6 +90,15 @@
 
 
 @media screen and (max-width: 414px){
+
+  .acm {
+    width: 35%;
+  }
+  .ieee {
+    width: 35%;
+    margin-right: 5%;
+  }
+  
   .notMobile{
     display: none;
   }
@@ -108,12 +117,20 @@
     margin-right: 0%;
     width: 25%;
   }
-
+  .creater {
+    width: 35%;
+    margin-left: 5%;
+  }
+  .digital {
+    width: 35%;
+  }
   .blsp {
     width: 62%;
     margin-right: 0%;
   }
-
+  .library {
+    width: 45%;
+  }
   .wa {
     width: 40%;
   }
@@ -121,4 +138,8 @@
   .xyz{
     width: 32%;
   }
+  .zybooks {
+    width: 35%;
+  }
+
 }

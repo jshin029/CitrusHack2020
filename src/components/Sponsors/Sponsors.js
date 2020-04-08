@@ -56,6 +56,11 @@ class Sponsors extends Component {
                 </div>
               </div>
               <div className="sponsorsMobile">
+              <h1 className="Sponsor__header">Organizers</h1>
+                <div className="Sponsor__container" style={{marginBottom: '2%'}}>
+                  <a href=""><img className="ieee" src={ieee}></img></a>
+                  <a href=""><img className="acm" src={acm}></img></a>
+                </div>
                 <h1 className="Sponsor__header">Sponsors</h1>
                 <div className="Sponsor__container">
                   <a href="https://gen.xyz/"><img className="xyz" src={xyz}></img></a>
@@ -70,6 +75,14 @@ class Sponsors extends Component {
                 </div>
                 <div className="Sponsor__container">
                   <a href="https://www.blackstonelaunchpad.org/"><img className="blsp" src={blsp}></img></a>
+                </div>
+                <div className="Sponsor__container">
+                <a href="https://www.zybooks.com/"><img className="zybooks" src={zybooks}></img></a>
+                <a href="https://www.digitalocean.com/"><img className="digital" src={digital}></img></a>
+                </div>
+                <div className="Sponsor__container">
+                <a href="https://library.ucr.edu/"><img className="library" src={library}></img></a>
+                <a href="https://library.ucr.edu/research-services/creativity-and-discovery/creatr-lab"><img className="creater" src={creater}></img></a>
                 </div>
               </div>
             </div>

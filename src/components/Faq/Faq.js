@@ -56,7 +56,7 @@ class Faq extends Component {
             </div>
             <div className="Faq__inner_container">
               <h1 className="Faq__inner_title">Who can attend?</h1>
-              <p className="Faq__inner_text">We welcome all undergraduate students from UCR, RCC, and CBU to attend. </p>
+              <p className="Faq__inner_text">We welcome all undergraduate and graduate students to attend. </p>
             </div>
             <div className="Faq__inner_container">
               <h1 className="Faq__inner_title">Is Citrus Hack free?</h1>

@@ -63,3 +63,19 @@
 
 .Tracks__img-container {
 }
+
+@media screen and (max-width: 414px){
+
+  .Tracks__header {
+    padding-left: 30%;
+
+  }
+  .Tracks__row {
+    display: block;
+  }
+  .Tracks__inner-container {
+    text-align: center;
+    margin-bottom: 12%;
+  }
+
+}

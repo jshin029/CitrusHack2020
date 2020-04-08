@@ -19,8 +19,8 @@ class Home extends Component {
                     <div className="col-lg-5 Home__right">
                         <h2 className="Home__header-main">Citrus Hack 2020</h2>
                         <h2 className="Home__header-sub">CONNECT . HACK . LEARN .</h2>
-                        <p className="Home__body"># Orbach Science Library @ 11AM</p>
-                        <p className="Home__body"># April 25th - 26th</p>
+                        <p className="Home__body"># Online!</p>
+                        <p className="Home__body"># April 25th 11AM PST -  April 26th 11AM PST</p>
                         <div className="Home__mobile-container">
                             <a href="https://citrus-hack.typeform.com/to/ygXesI">
                             <button className="Home__button-subscribe">REGISTER NOW</button>
