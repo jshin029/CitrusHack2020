@@ -87,8 +87,12 @@
 .digital {
   width: 20%;
 }
-
-
+.gcp{
+  width: 30%;
+}
+.linode{
+  width: 30%;
+}
 @media screen and (max-width: 414px){
 
   .acm {

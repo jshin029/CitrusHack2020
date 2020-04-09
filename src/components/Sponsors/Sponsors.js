@@ -15,6 +15,8 @@ const acm = require('../assets/acm.svg');
 const creater = require('../assets/creater.svg');
 const zybooks = require('../assets/zybooks.png');
 const digital = require('../assets/digital.png');
+const gcp = require('../assets/gcp.svg');
+const linode = require('../assets/linode-full-RGB-fc 1.svg');
 
 class Sponsors extends Component {
 
@@ -44,6 +46,11 @@ class Sponsors extends Component {
                   <a href="https://www.blackstonelaunchpad.org/"><img className="blsp" src={blsp}></img></a>
                   <a href="https://gen.xyz/"><img className="xyz" src={xyz}></img></a>
                   <a href="https://library.ucr.edu/"><img className="library" src={library}></img></a>
+                </div>
+                <div className="Sponsor__container">
+                  <a href="https://www.blackstonelaunchpad.org/"><img className="gcp" src={gcp}></img></a>
+                  <a href="https://gen.xyz/"><img className="linode" src={linode}></img></a>
+                 
                 </div>
                 <div className="Sponsor__container">
                   <a href="https://library.ucr.edu/research-services/creativity-and-discovery/creatr-lab"><img className="creater" src={creater}></img></a>
