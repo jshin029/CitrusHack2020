@@ -20,7 +20,7 @@ class Home extends Component {
                         <h2 className="Home__header-main">Citrus Hack 2020</h2>
                         <h2 className="Home__header-sub">CONNECT . HACK . LEARN .</h2>
                         <p className="Home__body"># Online!</p>
-                        <p className="Home__body"># April 25th 11AM PST -  April 26th 11AM PST</p>
+                        <p className="Home__body"># April 25th 11AM PDT -  April 26th 11AM PDT</p>
                         <div className="Home__mobile-container">
                             <a href="https://citrus-hack.typeform.com/to/ygXesI">
                             <button className="Home__button-subscribe">REGISTER NOW</button>

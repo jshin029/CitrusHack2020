@@ -48,8 +48,8 @@ class Sponsors extends Component {
                   <a href="https://library.ucr.edu/"><img className="library" src={library}></img></a>
                 </div>
                 <div className="Sponsor__container">
-                  <a href="https://www.blackstonelaunchpad.org/"><img className="gcp" src={gcp}></img></a>
-                  <a href="https://gen.xyz/"><img className="linode" src={linode}></img></a>
+                  <a href="https://cloud.google.com/"><img className="gcp" src={gcp}></img></a>
+                  <a href="https://www.linode.com/"><img className="linode" src={linode}></img></a>
                  
                 </div>
                 <div className="Sponsor__container">
@@ -86,6 +86,10 @@ class Sponsors extends Component {
                 <div className="Sponsor__container">
                 <a href="https://www.zybooks.com/"><img className="zybooks" src={zybooks}></img></a>
                 <a href="https://www.digitalocean.com/"><img className="digital" src={digital}></img></a>
+                </div>
+                <div className="Sponsor__container">
+                  <a href="https://cloud.google.com/"><img className="gcp" src={gcp}></img></a>
+                  <a href="https://www.linode.com/"><img className="linode" src={linode}></img></a>
                 </div>
                 <div className="Sponsor__container">
                 <a href="https://library.ucr.edu/"><img className="library" src={library}></img></a>

@@ -145,5 +145,10 @@
   .zybooks {
     width: 35%;
   }
-
+  .gcp{
+    width: 50%;
+  }
+  .linode{
+    width: 50%;
+  }
 }
