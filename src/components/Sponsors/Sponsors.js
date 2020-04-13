@@ -15,7 +15,7 @@ const acm = require('../assets/acm.svg');
 const creater = require('../assets/creater.svg');
 const zybooks = require('../assets/zybooks.png');
 const digital = require('../assets/digital.png');
-const gcp = require('../assets/gcp.svg');
+const gcp = require('../assets/gcp2.svg');
 const linode = require('../assets/linode-full-RGB-fc 1.svg');
 
 class Sponsors extends Component {
