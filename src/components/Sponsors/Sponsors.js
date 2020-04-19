@@ -17,6 +17,7 @@ const zybooks = require('../assets/zybooks.png');
 const digital = require('../assets/digital.png');
 const gcp = require('../assets/gcp2.svg');
 const linode = require('../assets/linode-full-RGB-fc 1.svg');
+const stickermule = require('../assets/stickermule.svg');
 
 class Sponsors extends Component {
 
@@ -50,7 +51,7 @@ class Sponsors extends Component {
                 <div className="Sponsor__container">
                   <a href="https://cloud.google.com/"><img className="gcp" src={gcp}></img></a>
                   <a href="https://www.linode.com/"><img className="linode" src={linode}></img></a>
-                 
+                  <a href="https://www.stickermule.com/unlock?ref_id=0539570701&utm_source=sponsorship&utm_campaign=mlh-sponsorship-2019&utm_medium=referral"><img className="stickermule" src={stickermule}></img></a>
                 </div>
                 <div className="Sponsor__container">
                   <a href="https://library.ucr.edu/research-services/creativity-and-discovery/creatr-lab"><img className="creater" src={creater}></img></a>
@@ -90,6 +91,7 @@ class Sponsors extends Component {
                 <div className="Sponsor__container">
                   <a href="https://cloud.google.com/"><img className="gcp" src={gcp}></img></a>
                   <a href="https://www.linode.com/"><img className="linode" src={linode}></img></a>
+                  <a href="https://www.stickermule.com/unlock?ref_id=0539570701&utm_source=sponsorship&utm_campaign=mlh-sponsorship-2019&utm_medium=referral"><img className="stickermule" src={stickermule}></img></a>
                 </div>
                 <div className="Sponsor__container">
                 <a href="https://library.ucr.edu/"><img className="library" src={library}></img></a>

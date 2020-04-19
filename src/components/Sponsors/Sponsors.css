@@ -93,6 +93,11 @@
 .linode{
   width: 30%;
 }
+
+.stickermule {
+  width: 16%;
+}
+
 @media screen and (max-width: 414px){
 
   .acm {
@@ -102,7 +107,7 @@
     width: 35%;
     margin-right: 5%;
   }
-  
+
   .notMobile{
     display: none;
   }
