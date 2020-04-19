@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cd4ed4cf35a9247bb15531f7a161112",
+    "revision": "913bb5107f4dbd45b66898a137bd5247",
     "url": "/index.html"
   },
   {
-    "revision": "6039b183c94659785ad5",
-    "url": "/static/css/2.c27c90ed.chunk.css"
+    "revision": "2ad826c5617b40d4c1c9",
+    "url": "/static/css/2.81310d1a.chunk.css"
   },
   {
-    "revision": "db23c0ffc750ebe9aecd",
-    "url": "/static/css/main.c990158f.chunk.css"
+    "revision": "715b9aa24f407f6be2e7",
+    "url": "/static/css/main.45304db8.chunk.css"
   },
   {
-    "revision": "6039b183c94659785ad5",
-    "url": "/static/js/2.990699ec.chunk.js"
+    "revision": "2ad826c5617b40d4c1c9",
+    "url": "/static/js/2.1785b0f9.chunk.js"
   },
   {
-    "revision": "db23c0ffc750ebe9aecd",
-    "url": "/static/js/main.df5232b8.chunk.js"
+    "revision": "715b9aa24f407f6be2e7",
+    "url": "/static/js/main.4ae6a27f.chunk.js"
   },
   {
     "revision": "a995fd588ad4eb6e4592",
@@ -48,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/citrus-footer-new.8daca800.svg"
   },
   {
+    "revision": "5db8e6e3cf10fc19f657a12e48c4c057",
+    "url": "/static/media/citrus_icon.5db8e6e3.png"
+  },
+  {
     "revision": "f1c137b889e55234cb0e6f8eeeecbe11",
     "url": "/static/media/creater.f1c137b8.svg"
+  },
+  {
+    "revision": "1f4d5485327f5cd9315e4abb2ae53d65",
+    "url": "/static/media/devpost.1f4d5485.svg"
   },
   {
     "revision": "ffc1fb8884e282fe4aebba76c4fec40b",
@@ -88,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linode-full-RGB-fc 1.c6dfcc77.svg"
   },
   {
+    "revision": "163ab034e946e5244f19f72e3f1b4cfc",
+    "url": "/static/media/live_hero.163ab034.svg"
+  },
+  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/static/media/logo.25bf045c.svg"
   },
@@ -110,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4aeceaef02e69f459fe64410c6945cdf",
     "url": "/static/media/saturn.4aeceaef.svg"
+  },
+  {
+    "revision": "5aa0594c0d276cc81513ce603ae92ef8",
+    "url": "/static/media/stickermule.5aa0594c.svg"
   },
   {
     "revision": "78c29926faf8e6bf9d713de835687b6c",
