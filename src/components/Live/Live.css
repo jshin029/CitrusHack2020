@@ -1,0 +1,65 @@
+.Live__container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.Live__hero {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+
+.Live__navbar {
+  background-color: #E5E5E5;
+  height: 100vh;
+}
+
+.Live__timer-container {
+  padding-top: 16%;
+  padding-bottom: 4%;
+  margin: auto;
+  width: 50%;
+}
+
+.Live__header {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+
+.Live__icon {
+  padding-top: 14%;
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+.Live__sub-header {
+  padding-top: 4%;
+  font-size: 26px;
+  font-weight: 350;
+  text-align: center;
+}
+
+.Live__social-container {
+  margin-right: 5%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.Live__discord {
+  display: block;
+  width: 25px;
+}
+
+.Live__devpost {
+  width: 27px;
+}
+
+.Live__ig, .Live__fb {
+  color: black;
+  padding-top: 4px;
+  font-size: 22px;
+  outline: none !important;
+}

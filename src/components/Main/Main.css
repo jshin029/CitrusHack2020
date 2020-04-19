@@ -1,0 +1,44 @@
+.Main {
+  height: 100%;
+  overflow: hidden;
+}
+
+.Main__footer {
+  margin-top: 5%;
+  width: 100vw;
+  height: 90%;
+  text-align: center;
+}
+
+.Main__footer_img {
+  width: 80%;
+  margin: auto;
+}
+
+.Main__footer_body {
+  margin-top: 1%;
+}
+
+.Main__footer_text {
+  color: #373A56;
+}
+
+.Main__banner {
+  width: 7%;
+  left: 4%;
+  position: absolute;
+  z-index: 10000;
+}
+
+
+@media screen and (max-width: 414px){
+  .Main__footer_img {
+    margin-top: 110%;
+    width: 230%;
+    transform: translateX(-260px);
+  }
+
+  .Main__banner {
+    display: none;
+  }
+}
