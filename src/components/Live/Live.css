@@ -1,6 +1,10 @@
+.mobile{
+  display: none;
+}
 .Live__container {
   width: 100vw;
   height: 100vh;
+  background-color: #ECECEE;
 }
 
 .Live__hero {
@@ -62,4 +66,37 @@
   padding-top: 4px;
   font-size: 22px;
   outline: none !important;
+}
+
+@media screen and (max-width: 414px){
+
+  .notMobile{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .Live__hero {
+
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 120%;
+  }
+  .Live__social-container {
+    margin-top: 50%;
+    margin-left: 130%;
+  }
+  /* .Live__discord {
+    width: 30px;
+  }
+  .Live__devpost {
+    width: 34px;
+  }
+  .Live__ig, .Live__fb {
+    font-size: 28px;
+  } */
+  .Live__timer-container {
+    margin-right: 50%;
+
+  }
 }
