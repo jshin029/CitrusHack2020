@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Icon } from 'antd';
 import Countdown from '../Countdown/Countdown';
 import './Live.css';
-
-const hero = require('../assets/live_hero.svg');
+import Navbar from '../Navbar/Navbar';
+import NavbarMobile from '../NavbarMobile/NavbarMobile';
+const hero = require('../assets/citrus_livesite_transp.svg');
 const icon = require('../assets/citrus_icon.png');
 const devpost = require('../assets/devpost.svg');
 const discord = require('../assets/discord.png');
@@ -15,7 +16,10 @@ const year = (currentDate.getMonth() === 4 && currentDate.getDate() > 23) ? curr
 class Live extends Component {
   render(){
     return(
-      <div className="container-fluid Live__container">
+      <div className="container-fluid Live__container" >
+        <div className="mobile">
+        <NavbarMobile className="mobile"/>
+        </div>
         <div className="row">
           <div className="col-9">
             <div className="Live__timer-container">
@@ -38,10 +42,11 @@ class Live extends Component {
 
             <img className="Live__hero" src={ hero }></img>
           </div>
-          <div className="col-3 Live__navbar">
+          <div className="col-3 Live__navbar notMobile">
             <img className="Live__icon" src={ icon }></img>
             <h1 className="Live__header">CITRUS <br/>HACK</h1>
             <h2 className="Live__sub-header">HOME</h2>
+            <h2 className="Live__sub-header">CHECK IN</h2>
             <h2 className="Live__sub-header">SCHEDULE</h2>
             <h2 className="Live__sub-header">RESOURCES</h2>
             <h2 className="Live__sub-header">DEVPOST</h2>

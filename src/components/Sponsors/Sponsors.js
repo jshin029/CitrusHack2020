@@ -18,6 +18,9 @@ const digital = require('../assets/digital.png');
 const gcp = require('../assets/gcp2.svg');
 const linode = require('../assets/linode-full-RGB-fc 1.svg');
 const stickermule = require('../assets/stickermule.svg');
+const fifteenSeventeen = require('../assets/1517.svg')
+const challengeRocket = require('../assets/challengeRocket.svg')
+const zt = require('../assets/zesttea.svg')
 
 class Sponsors extends Component {
 
@@ -59,6 +62,11 @@ class Sponsors extends Component {
                   <a href="https://www.digitalocean.com/"><img className="digital" src={digital}></img></a>
                 </div>
                 <div className="Sponsor__container">
+                  <a href="https://www.zesttea.com/"><img className="creater" src={zt}></img></a>
+                  <a href="https://www.1517fund.com/"><img className="fifteenSeventeen" src={fifteenSeventeen}></img></a>
+                  <a href="https://challengerocket.com/"><img className="digital" src={challengeRocket}></img></a>
+                </div>
+                <div className="Sponsor__container">
                   <p className="Sponsor__packet"> Interested in <a className="Sponsor__key" href="https://drive.google.com/file/d/1wHZX8orMl5V-5bynxYmBivPL9I-jN2DZ/view?usp=sharing"><span className="Sponsor__key">sponsoring</span></a> Citrus Hack?</p>
                   <img className="Sponsor__planet" src={planet} />
                 </div>
@@ -96,6 +104,11 @@ class Sponsors extends Component {
                 <div className="Sponsor__container">
                 <a href="https://library.ucr.edu/"><img className="library" src={library}></img></a>
                 <a href="https://library.ucr.edu/research-services/creativity-and-discovery/creatr-lab"><img className="creater" src={creater}></img></a>
+                </div>
+                <div className="Sponsor__container">
+                <a href="https://www.zesttea.com/"><img className="creater" src={zt}></img></a>
+                  <a href="https://www.1517fund.com/"><img className="fifteenSeventeen" src={fifteenSeventeen}></img></a>
+                  <a href="https://challengerocket.com/"><img className="digital" src={challengeRocket}></img></a>
                 </div>
               </div>
             </div>

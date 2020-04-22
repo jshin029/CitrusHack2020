@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 414px){
   .Main__footer_img {
-    margin-top: 110%;
+    margin-top: 150%;
     width: 230%;
     transform: translateX(-260px);
   }

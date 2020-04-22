@@ -97,6 +97,11 @@
 .stickermule {
   width: 16%;
 }
+.fifteenSeventeen{
+  margin-left: 5%;
+  width: 10%;
+  margin-right: 5%;
+}
 
 @media screen and (max-width: 414px){
 
@@ -155,5 +160,8 @@
   }
   .linode{
     width: 50%;
+  }
+  .fifteenSeventeen{
+    width: 15%;
   }
 }
