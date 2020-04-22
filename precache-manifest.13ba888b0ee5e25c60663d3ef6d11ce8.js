@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "913bb5107f4dbd45b66898a137bd5247",
+    "revision": "0a088786be2923d8db6795231f4a4bc6",
     "url": "/index.html"
   },
   {
-    "revision": "2ad826c5617b40d4c1c9",
-    "url": "/static/css/2.81310d1a.chunk.css"
+    "revision": "8e3252524269e7110ea8",
+    "url": "/static/css/2.c27c90ed.chunk.css"
   },
   {
-    "revision": "715b9aa24f407f6be2e7",
-    "url": "/static/css/main.45304db8.chunk.css"
+    "revision": "4771a276d83ec579c9e2",
+    "url": "/static/css/main.7fa4a4b1.chunk.css"
   },
   {
-    "revision": "2ad826c5617b40d4c1c9",
-    "url": "/static/js/2.1785b0f9.chunk.js"
+    "revision": "8e3252524269e7110ea8",
+    "url": "/static/js/2.adc97887.chunk.js"
   },
   {
-    "revision": "715b9aa24f407f6be2e7",
-    "url": "/static/js/main.4ae6a27f.chunk.js"
+    "revision": "4771a276d83ec579c9e2",
+    "url": "/static/js/main.885262b1.chunk.js"
   },
   {
     "revision": "a995fd588ad4eb6e4592",
     "url": "/static/js/runtime-main.4fc56509.js"
+  },
+  {
+    "revision": "3757333029d36d780be1653398359601",
+    "url": "/static/media/1517.37573330.svg"
   },
   {
     "revision": "b89bcb6788a4c0529b8686558a7efbfc",
@@ -44,12 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bslp 1.077db806.svg"
   },
   {
+    "revision": "d5ed6993f3614d479d078c532e458454",
+    "url": "/static/media/challengeRocket.d5ed6993.svg"
+  },
+  {
     "revision": "8daca8003b985aa7f89b995cdde81069",
     "url": "/static/media/citrus-footer-new.8daca800.svg"
   },
   {
     "revision": "5db8e6e3cf10fc19f657a12e48c4c057",
     "url": "/static/media/citrus_icon.5db8e6e3.png"
+  },
+  {
+    "revision": "e9bfdad43d491d85ab81307fbe69a847",
+    "url": "/static/media/citrus_livesite_transp.e9bfdad4.svg"
   },
   {
     "revision": "f1c137b889e55234cb0e6f8eeeecbe11",
@@ -96,10 +108,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linode-full-RGB-fc 1.c6dfcc77.svg"
   },
   {
-    "revision": "163ab034e946e5244f19f72e3f1b4cfc",
-    "url": "/static/media/live_hero.163ab034.svg"
-  },
-  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/static/media/logo.25bf045c.svg"
   },
@@ -138,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d94226ca6e7ebce19eecd01bd7eed573",
     "url": "/static/media/xyz 1.d94226ca.svg"
+  },
+  {
+    "revision": "8e341bc0ad3fc14df6d57c8a954428d6",
+    "url": "/static/media/zesttea.8e341bc0.svg"
   },
   {
     "revision": "6243940c3db073224e21cc18bbc1c710",
