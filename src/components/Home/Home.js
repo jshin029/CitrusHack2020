@@ -34,7 +34,9 @@ class Home extends Component {
                         <p className="Home__body"># Online!</p>
                         <p className="Home__body"># April 25th 11AM PDT -  April 26th 11AM PDT</p>
                         <div className="Home__mobile-container">
-                            <button onClick={this.handleClick} className="Home__button-subscribe">LIVE</button>
+                            <a href="https://citrus-hack.typeform.com/to/ygXesI">
+                              <button className="Home__button-subscribe">REGISTRATION</button>
+                            </a>
                         </div>
                         <div className="Home__social-container">
                           <a href="https://www.facebook.com/CitrusHack/">
