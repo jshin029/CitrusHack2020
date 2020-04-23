@@ -9,13 +9,13 @@ import { Switch, Route, BrowserRouter as Router, Redirect, HashRouter } from 're
 function App() {
   return (
       <div className='app'>
-        <Router basename="/">
+        <HashRouter basename="/">
           <Switch>
             <Route exact path="/" component={ Main }/>
             <Route exact path="/live" component={ Live }/>
             <Route exact path="/schedule" component={ Schedule }/>
           </Switch>
-        </Router>
+        </HashRouter>
       </div>
   );
 }
