@@ -8,8 +8,20 @@ const hero = require('../assets/herographicBG.png');
 const mlh = require('../assets/mlh_black.png');
 
 class Home extends Component {
+    state = {
+      redirectLive: false
+    }
+
+    handleClick = () => {
+      this.setState({
+        redirectLive: true
+      })
+    }
 
     render() {
+      if (this.state.redirectLive) {
+        return <Redirect push to="/live" />
+      }
         return (
             <div className="container-fluid Home">
                 <div className="row">
@@ -22,9 +34,7 @@ class Home extends Component {
                         <p className="Home__body"># Online!</p>
                         <p className="Home__body"># April 25th 11AM PDT -  April 26th 11AM PDT</p>
                         <div className="Home__mobile-container">
-                            <a href="https://citrus-hack.com/#/live">
-                            <button className="Home__button-subscribe">LIVE</button>
-                            </a>
+                            <button onClick={this.handleClick} className="Home__button-subscribe">LIVE</button>
                         </div>
                         <div className="Home__social-container">
                           <a href="https://www.facebook.com/CitrusHack/">
