@@ -28,7 +28,7 @@ class Live extends Component {
                 <a href="https://discord.gg/kSsSN8">
                   <img className="Live__discord" src={ discord }></img>
                 </a>
-                <a href="">
+                <a href="https://citrushack2020.devpost.com/">
                   <img className="Live__devpost" style={{marginLeft: '5%', marginRight: '3.5%'}}src={ devpost }></img>
                 </a>
                 <a href="https://www.facebook.com/CitrusHack/">
