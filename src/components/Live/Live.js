@@ -50,7 +50,7 @@ class Live extends Component {
             <h2 className="Live__sub-header"><a href="https://www.citrushack.com/#/schedule">SCHEDULE</a></h2>
             <h2 className="Live__sub-header"><a href ="https://www.canva.com/design/DAD5-coBkBY/ezx11qndMlb44XvhQnM_kA/view?utm_content=DAD5-coBkBY">HACKER GUIDE</a></h2>
             <h2 className="Live__sub-header"><a href="https://github.com/citrushack/CitrusHack20-HackerResources">RESOURCES</a></h2>
-            <h2 className="Live__sub-header">DEVPOST</h2>
+            <h2 className="Live__sub-header"><a href="https://citrushack2020.devpost.com/">DEVPOST</a></h2>
             <h2 className="Live__sub-header"><a href="https://www.citrushack.com/#/">BACK TO EVENT SITE</a></h2>
           </div>
         </div>
