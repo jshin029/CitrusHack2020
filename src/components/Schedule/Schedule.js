@@ -27,24 +27,24 @@ class Schedule extends Component {
                   </Animated>
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
-                        <div className="innerLeftSchedule">Registration</div>
+                        <div className="innerLeftSchedule">Check In</div>
                         <div className="innerRightSchedule">7:00AM-9:00AM</div>
                       </div>
-                      <div className="scheduleLoc">Bytes</div>
+                      <a href="https://citrus-hack.typeform.com/to/z1W5bH"><div className="scheduleLoc">Check in Link</div></a>
                     </div>
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
                         <div className="innerLeftSchedule">Opening Ceremony</div>
                         <div className="innerRightSchedule">9:00AM-10:00AM</div>
                       </div>
-                      <div className="scheduleLoc">MSE 104</div>
+                      <a href="meet.google.com/phc-hqmr-eyw"><div className="scheduleLoc">Youtube Link</div></a>
                     </div>
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
                         <div className="innerLeftSchedule">Hacking Begins</div>
                         <div className="innerRightSchedule">11:00AM</div>
                         </div>
-                      <div className="scheduleLoc">MSE 104</div>
+                      <div className="scheduleLoc">Your House</div>
                     </div>
                     {/* <div className="scheduleSlot">
                       <div className="scheduleSection">
@@ -91,35 +91,49 @@ class Schedule extends Component {
                       <div className="innerLeftSchedule">GCP Tech Talk</div>
                       <div className="innerRightSchedule">12:00PM-1:00PM</div>
                     </div>
-                    <div className="scheduleLoc">MSE 104</div>
+                    <a href="https://meet.google.com/sct-mjgy-ucf"><div className="scheduleLoc">Workshop Room 1</div></a>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
-                      <div className="innerLeftSchedule">Guest Speaker: See-Mong</div>
+                      <div className="innerLeftSchedule">Intro to Git</div>
+                      <div className="innerRightSchedule">12:00PM-1:00PM</div>
+                    </div>
+                    <a href="https://meet.google.com/dur-vbav-vjk"><div className="scheduleLoc">Workshop Room 2</div></a>
+                  </div>
+                  <div className="scheduleSlot">
+                    <div className="scheduleSection">
+                      <div className="innerLeftSchedule">Speaker: See-Mong</div>
                       <div className="innerRightSchedule">2:00PM-3:00PM</div>
                     </div>
-                    <div className="scheduleLoc">Bourns A125</div>
+                    <a href="https://meet.google.com/sct-mjgy-ucf"><div className="scheduleLoc">Workshop Room 1</div></a>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
-                      <div className="innerLeftSchedule">Guest Speaker: Tammy Ma</div>
+                      <div className="innerLeftSchedule">Speaker: Tammy Ma</div>
                       <div className="innerRightSchedule">1:30PM-2:30PM</div>
                     </div>
-                    <div className="scheduleLoc">Bourns A125</div>
+                    <a href="https://meet.google.com/dur-vbav-vjk"><div className="scheduleLoc">Workshop Room 2</div></a>
                   </div> 
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
-                      <div className="innerLeftSchedule">Android Dev</div>
+                      <div className="innerLeftSchedule">Intro to Android Dev</div>
                       <div className="innerRightSchedule">4:00PM-5:00PM</div>
                     </div>
-                    <div className="scheduleLoc">WCH 110</div>
+                    <a href="https://meet.google.com/sct-mjgy-ucf"><div className="scheduleLoc">Workshop Room 1</div></a>
+                  </div>
+                  <div className="scheduleSlot">
+                    <div className="scheduleSection">
+                      <div className="innerLeftSchedule">Intro to Web Dev</div>
+                      <div className="innerRightSchedule">4:00PM-5:00PM</div>
+                    </div>
+                    <a href="https://meet.google.com/dur-vbav-vjk"><div className="scheduleLoc">Workshop Room 2</div></a>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">Intro to Linux </div>
                       <div className="innerRightSchedule">5:00PM-6:00PM</div>
                     </div>
-                    <div className="scheduleLoc">Bourns A125</div>
+                    <a href="https://meet.google.com/sct-mjgy-ucf"><div className="scheduleLoc">Workshop Room 1</div></a>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
@@ -128,34 +142,34 @@ class Schedule extends Component {
                     </div>
                     <div className="scheduleLoc">WCH 110</div>
                   </div>
-                  {/* <div className="scheduleSlot">
+                  <div className="scheduleSlot">
                     <div className="scheduleSection">
-                      <div className="innerLeftSchedule">Intro to Flask</div>
-                      <div className="innerRightSchedule">1:30PM-2:30PM</div>
+                      <div className="innerLeftSchedule">Resume Workshop</div>
+                      <div className="innerRightSchedule">6:00PM-7:00PM</div>
                     </div>
-                    <div className="scheduleLoc">Bourns A125</div>
-                  </div> */}
-                  {/* <div className="scheduleSlot">
+                    <a href="https://meet.google.com/sct-mjgy-ucf"><div className="scheduleLoc">Workshop Room 1</div></a>
+                  </div>
+                  <div className="scheduleSlot">
                     <div className="scheduleSection">
-                      <div className="innerLeftSchedule">IOS App Dev.</div>
-                      <div className="innerRightSchedule">1:30PM-2:30PM</div>
+                      <div className="innerLeftSchedule">Linkedin 101</div>
+                      <div className="innerRightSchedule">6:00PM-7:00PM</div>
                     </div>
-                    <div className="scheduleLoc">WCH 110</div>
-                  </div> */}
-                  {/* <div className="scheduleSlot">
+                    <a href="https://meet.google.com/dur-vbav-vjk"><div className="scheduleLoc">Workshop Room 2</div></a>
+                  </div>
+                  <div className="scheduleSlot">
                     <div className="scheduleSection">
-                      <div className="innerLeftSchedule">Intro to Linux</div>
-                      <div className="innerRightSchedule">3:00PM-4:00PM</div>
+                      <div className="innerLeftSchedule">Meet the Organizers</div>
+                      <div className="innerRightSchedule">9:00PM-10:00PM</div>
                     </div>
-                    <div className="scheduleLoc">Bourns A125</div>
-                  </div> */}
-                  {/* <div className="scheduleSlot">
+                    <a href="https://meet.google.com/sct-mjgy-ucf"><div className="scheduleLoc">Workshop Room 1</div></a>
+                  </div>
+                  <div className="scheduleSlot">
                     <div className="scheduleSection">
-                      <div className="innerLeftSchedule">MLH Workshop</div>
-                      <div className="innerRightSchedule">3:00PM-4:00PM</div>
+                      <div className="innerLeftSchedule">Graphic Design 101</div>
+                      <div className="innerRightSchedule">9:00PM-10:00PM</div>
                     </div>
-                    <div className="scheduleLoc">WCH 110</div>
-                  </div> */}
+                    <a href="https://meet.google.com/dur-vbav-vjk"><div className="scheduleLoc">Workshop Room 2</div></a>
+                  </div>
                   {/* <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">How to Pitch Your Project</div>
@@ -173,49 +187,49 @@ class Schedule extends Component {
                       <div className="innerLeftSchedule">MLH Team Building</div>
                       <div className="innerRightSchedule">10:00AM-11:00PM</div>
                     </div>
-                    <div className="scheduleLoc">Slack</div>
+                    <a href="meet.google.com/tbh-veeo-rzb"><div className="scheduleLoc">Activity Room</div></a>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">MLH Capture the Flag</div>
                       <div className="innerRightSchedule">1:00PM-2:00PM</div>
                     </div>
-                    <div className="scheduleLoc">WCH 127</div>
+                    < a href="meet.google.com/tbh-veeo-rzb"><div className="scheduleLoc">Activity Room</div></a>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">Raffle Announcement</div>
                       <div className="innerRightSchedule">2:30PM</div>
                     </div>
-                    <div className="scheduleLoc">Bytes</div>
+                    <div className="scheduleLoc">Discord</div>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">Raffle Announcement 2</div>
                       <div className="innerRightSchedule">6:00PM</div>
                     </div>
-                    <div className="scheduleLoc">?????</div>
+                    <div className="scheduleLoc">Discord</div>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">Dalgona Coffee Competition</div>
                       <div className="innerRightSchedule">6:30PM-7:00PM</div>
                     </div>
-                    <div className="scheduleLoc">Bytes</div>
+                    <div className="scheduleLoc">Activity Room</div>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">Jackbox Games</div>
                       <div className="innerRightSchedule">10:00PM-11:00PM</div>
                     </div>
-                    <div className="scheduleLoc">Bytes</div>
+                    <div className="scheduleLoc">Activity Room</div>
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">MLH Code in the Dark</div>
                       <div className="innerRightSchedule">8:00PM-9:00PM</div>
                     </div>
-                    <div className="scheduleLoc">Bytes</div>
+                    <div className="scheduleLoc">Activity Room</div>
                   </div>
                 </div>
               </div>
@@ -419,7 +433,7 @@ class Schedule extends Component {
             <div className="col-3 Live__navbar notMobile">
             <img className="Live__icon" src={ icon }></img>
             <h1 className="Live__header">CITRUS <br/>HACK</h1>
-            <h2 className="Live__sub-header"><a href="https://citrushack.com/live">HOME</a></h2>
+            <h2 className="Live__sub-header"><a href="https://www.citrushack.com/#/live">HOME</a></h2>
             <h2 className="Live__sub-header"><a href="https://citrus-hack.typeform.com/to/z1W5bH">CHECK IN</a></h2>
             <h2 className="Live__sub-header"><a href ="https://www.canva.com/design/DAD5-coBkBY/ezx11qndMlb44XvhQnM_kA/view?utm_content=DAD5-coBkBY">HACKER GUIDE</a></h2>
             <h2 className="Live__sub-header"><a href="https://github.com/citrushack/CitrusHack20-HackerResources">RESOURCES</a></h2>
