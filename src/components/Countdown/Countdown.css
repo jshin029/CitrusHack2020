@@ -1,4 +1,6 @@
 .Countdown {
+  display: flex;
+  justify-content: center;
   color: black;
   font-size: 30px;
   font-weight: 150;
