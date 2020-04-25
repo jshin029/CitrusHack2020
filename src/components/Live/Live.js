@@ -25,7 +25,7 @@ class Live extends Component {
             <div className="Live__timer-container">
               <Countdown date={`${ year }-04-26T11:00:00`}/>
               <div className="Live__social-container">
-                <a href="https://discord.gg/kSsSN8">
+                <a href="https://discord.gg/gG78Ube">
                   <img className="Live__discord" src={ discord }></img>
                 </a>
                 <a href="https://citrushack2020.devpost.com/">

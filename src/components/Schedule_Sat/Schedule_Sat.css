@@ -86,13 +86,6 @@
   padding-top: 1%;
 }
 
-.scheduleLoc {
-  float: left;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-  width: 100%;
-}
-
 .scheduleSlot {
   padding-top: 80px;
   margin: auto;

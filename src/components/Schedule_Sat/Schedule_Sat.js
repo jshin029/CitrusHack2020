@@ -12,7 +12,7 @@ class Schedule_Sat extends Component {
 
   render() {
     return(
-        
+
         <div className="scheduleLeft">
             <div className="day">SATURDAY</div>
         <div className="container innerSchedule">
@@ -110,7 +110,7 @@ class Schedule_Sat extends Component {
                   <div className="innerRightSchedule">3:00PM-3:30PM</div>
                 </div>
                 <a href="https://meet.google.com/dur-vbav-vjk"><div className="scheduleLoc">Workshop Room 2</div></a>
-              </div> 
+              </div>
               <div className="scheduleSlot">
                 <div className="scheduleSection">
                   <div className="innerLeftSchedule">Intro to Android Dev</div>
@@ -200,7 +200,7 @@ class Schedule_Sat extends Component {
                 </div>
                 <div className="scheduleLoc">Discord</div>
               </div>
-       
+
               <div className="scheduleSlot" style={{paddingTop: '100px'}}>
                 <div className="scheduleSection">
                   <div className="innerLeftSchedule">Dalgona Coffee Competition</div>
