@@ -48,7 +48,7 @@ class Schedule_Sun extends Component {
         <div className="scheduleSlot">
           <div className="scheduleSection">
             <div className="innerLeftSchedule">Closing Ceremony</div>
-            <div className="innerRightSchedule">3:30PM-4:30PM</div>
+            <div className="innerRightSchedule">5:00PM-6:00PM</div>
           </div>
           <div className="scheduleLoc">Youtube Live</div>
         </div>
@@ -165,21 +165,21 @@ class Schedule_Sun extends Component {
           <div className="innerLeftSchedule">Midnight Mukbang</div>
           <div className="innerRightSchedule">12:00AM-1:00AM</div>
         </div>
-        <div className="scheduleLoc">Activity Room</div>
+        <a href="https://hangouts.google.com/call/iSXbPN32qwjf1_ty5PMEAEEE?no_rd"><div className="scheduleLoc">Activity Room</div></a>
       </div>
       <div className="scheduleSlot">
         <div className="scheduleSection">
           <div className="innerLeftSchedule">shellshock.io Tournament</div>
           <div className="innerRightSchedule">4:00AM-5:30AM</div>
         </div>
-        <div className="scheduleLoc">Activity Room</div>
+        <a href="https://hangouts.google.com/call/iSXbPN32qwjf1_ty5PMEAEEE?no_rd"><div className="scheduleLoc">Activity Room</div></a>
       </div>
       <div className="scheduleSlot">
         <div className="scheduleSection">
           <div className="innerLeftSchedule">Music Session</div>
           <div className="innerRightSchedule">7:00AM-8:00AM</div>
         </div>
-        <div className="scheduleLoc">Activity Room</div>
+        <a href="https://hangouts.google.com/call/iSXbPN32qwjf1_ty5PMEAEEE?no_rd"> <div className="scheduleLoc">Activity Room</div></a>
       </div>
       {/* <div className="scheduleSlot">
         <div className="scheduleSection">

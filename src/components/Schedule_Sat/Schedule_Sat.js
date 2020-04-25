@@ -184,7 +184,7 @@ class Schedule_Sat extends Component {
                   <div className="innerLeftSchedule">Team Building</div>
                   <div className="innerRightSchedule">10:00AM-11:00AM</div>
                 </div>
-                <a href="meet.google.com/tbh-veeo-rzb"><div className="scheduleLoc">Activity Room</div></a>
+                <a href="https://hangouts.google.com/call/iSXbPN32qwjf1_ty5PMEAEEE?no_rd"><div className="scheduleLoc">Activity Room</div></a>
               </div>
               <div className="scheduleSlot">
                 <div className="scheduleSection">
@@ -206,14 +206,14 @@ class Schedule_Sat extends Component {
                   <div className="innerLeftSchedule">Dalgona Coffee Competition</div>
                   <div className="innerRightSchedule">6:30PM-7:30PM</div>
                 </div>
-                <div className="scheduleLoc">Activity Room</div>
+                <a href="https://hangouts.google.com/call/iSXbPN32qwjf1_ty5PMEAEEE?no_rd"> <div className="scheduleLoc">Activity Room</div></a>
               </div>
               <div className="scheduleSlot" style={{paddingTop: '100px'}}>
                 <div className="scheduleSection">
                   <div className="innerLeftSchedule">MLH Code in the Dark</div>
                   <div className="innerRightSchedule">8:00PM-9:00PM</div>
                 </div>
-                <div className="scheduleLoc">Activity Room</div>
+                <a href="https://hangouts.google.com/call/iSXbPN32qwjf1_ty5PMEAEEE?no_rd"><div className="scheduleLoc">Activity Room</div></a>
               </div>
               <div className="scheduleSlot" style={{paddingTop: '100px'}}>
                 <div className="scheduleSection">
@@ -227,7 +227,7 @@ class Schedule_Sat extends Component {
                   <div className="innerLeftSchedule">Jackbox Games</div>
                   <div className="innerRightSchedule">10:00PM-11:00PM</div>
                 </div>
-                <div className="scheduleLoc">Activity Room</div>
+                <a href="https://hangouts.google.com/call/iSXbPN32qwjf1_ty5PMEAEEE?no_rd"> <div className="scheduleLoc">Activity Room</div></a>
               </div>
             </div>
           </div>
