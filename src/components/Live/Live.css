@@ -45,6 +45,10 @@
   text-align: center;
 }
 
+.Live__sub-header > a {
+  text-transform: uppercase;
+}
+
 .Live__social-container {
   margin-right: 5%;
   justify-content: center;
