@@ -34,7 +34,7 @@ class Schedule_Sat extends Component {
                     <div className="innerLeftSchedule">Opening Ceremony</div>
                     <div className="innerRightSchedule">9:00AM-10:00AM</div>
                   </div>
-               <div className="scheduleLoc">Youtube Live</div>
+                  <a href="https://www.youtube.com/watch?v=_SB0XmXNaus"><div className="scheduleLoc">Youtube Live</div></a>
                 </div>
                 <div className="scheduleSlot">
                   <div className="scheduleSection">
