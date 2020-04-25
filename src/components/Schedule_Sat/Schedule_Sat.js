@@ -85,10 +85,10 @@ class Schedule_Sat extends Component {
               <div style={{width: '35%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
               <div className="scheduleSlot">
                 <div className="scheduleSection">
-                  <div className="innerLeftSchedule">GCP Tech Talk</div>
+                  <div className="innerLeftSchedule">Google Cloud Wkshp</div>
                   <div className="innerRightSchedule">12:00PM-1:00PM</div>
                 </div>
-                <a href="https://meet.google.com/sct-mjgy-ucf"><div className="scheduleLoc">Workshop Room 1</div></a>
+                <a href="https://meet.google.com/ymm-pqng-jrq"><div className="scheduleLoc">Google Cloud Room</div></a>
               </div>
               <div className="scheduleSlot">
                 <div className="scheduleSection">
@@ -188,6 +188,13 @@ class Schedule_Sat extends Component {
               </div>
               <div className="scheduleSlot">
                 <div className="scheduleSection">
+                  <div className="innerLeftSchedule">Google Cloud OH</div>
+                  <div className="innerRightSchedule">11:00AM-9:00AM</div>
+                </div>
+                <a href="https://meet.google.com/ymm-pqng-jrq"><div className="scheduleLoc">Google Cloud Room</div></a>
+              </div>
+              <div className="scheduleSlot">
+                <div className="scheduleSection">
                   <div className="innerLeftSchedule">MLH Capture the Flag</div>
                   <div className="innerRightSchedule">1:00PM-2:00PM</div>
                 </div>
@@ -207,6 +214,13 @@ class Schedule_Sat extends Component {
                   <div className="innerRightSchedule">8:00PM-9:00PM</div>
                 </div>
                 <div className="scheduleLoc">Activity Room</div>
+              </div>
+              <div className="scheduleSlot" style={{paddingTop: '100px'}}>
+                <div className="scheduleSection">
+                  <div className="innerLeftSchedule">1517 Office Hours</div>
+                  <div className="innerRightSchedule">8:00PM-9:00PM</div>
+                </div>
+                <div className="scheduleLoc">1517 Room</div>
               </div>
               <div className="scheduleSlot" style={{paddingTop: '100px'}}>
                 <div className="scheduleSection">

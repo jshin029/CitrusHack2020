@@ -50,7 +50,7 @@ class Schedule_Sun extends Component {
             <div className="innerLeftSchedule">Closing Ceremony</div>
             <div className="innerRightSchedule">3:30PM-4:30PM</div>
           </div>
-          <div className="scheduleLoc">Youtube Link</div>
+          <div className="scheduleLoc">Youtube Live</div>
         </div>
         {/* <div className="scheduleSlot">
           <div className="scheduleSection">
