@@ -23,7 +23,7 @@ class Live extends Component {
         <div className="row">
           <div className="col-9">
             <div className="Live__timer-container">
-              <Countdown date={`${ year }-04-25T00:11:00`}/>
+              <Countdown date={`${ year }-04-26T11:00:00`}/>
               <div className="Live__social-container">
                 <a href="https://discord.gg/kSsSN8">
                   <img className="Live__discord" src={ discord }></img>

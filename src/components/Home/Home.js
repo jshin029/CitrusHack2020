@@ -37,6 +37,7 @@ class Home extends Component {
                             <a href="https://citrus-hack.typeform.com/to/z1W5bH">
                               <button className="Home__button-subscribe">CHECK-IN</button>
                             </a>
+                              <button style={{marginLeft: '5%'}} onClick={this.handleClick} className="Home__button-subscribe">LIVE</button>
                         </div>
                         <div className="Home__social-container">
                           <a href="https://www.facebook.com/CitrusHack/">
