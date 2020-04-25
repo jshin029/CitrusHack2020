@@ -88,7 +88,7 @@ class Schedule_Sat extends Component {
                   <div className="innerLeftSchedule">Google Cloud Wkshp</div>
                   <div className="innerRightSchedule">12:00PM-1:00PM</div>
                 </div>
-                <a href="https://meet.google.com/ymm-pqng-jrq"><div className="scheduleLoc">Google Cloud Room</div></a>
+                <a href="https://meet.google.com/sct-mjgy-ucf"><div className="scheduleLoc">Workshop Room 1</div></a>
               </div>
               <div className="scheduleSlot">
                 <div className="scheduleSection">
