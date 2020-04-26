@@ -20,7 +20,8 @@
 
 .Live__timer-container {
   padding-top: 16%;
-  padding-bottom: 4%;
+  display: flex;
+  flex-direction: column;
   margin: auto;
   width: 50%;
 }
@@ -45,8 +46,11 @@
   text-align: center;
 }
 
+.Live__sub-header > a {
+  text-transform: uppercase;
+}
+
 .Live__social-container {
-  margin-right: 5%;
   justify-content: center;
   text-align: center;
   display: flex;

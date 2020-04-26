@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Icon } from 'antd';
 import Countdown from '../Countdown/Countdown';
 import './Live.css';
@@ -45,13 +46,25 @@ class Live extends Component {
           <div className="col-3 Live__navbar notMobile">
             <img className="Live__icon" src={ icon }></img>
             <h1 className="Live__header">CITRUS <br/>HACK</h1>
-            <h2 className="Live__sub-header"><a href="https://www.citrushack.com/#/live">HOME</a></h2>
+            <h2 className="Live__sub-header">
+              <Link to="/live">
+                Home
+              </Link>
+            </h2>
             <h2 className="Live__sub-header"><a href="https://citrus-hack.typeform.com/to/z1W5bH">CHECK IN</a></h2>
-            <h2 className="Live__sub-header"><a href="https://www.citrushack.com/#/schedule">SCHEDULE</a></h2>
+            <h2 className="Live__sub-header">
+              <Link to="/schedule">
+                Schedule
+              </Link>
+            </h2>
             <h2 className="Live__sub-header"><a href ="https://www.canva.com/design/DAD5-coBkBY/ezx11qndMlb44XvhQnM_kA/view?utm_content=DAD5-coBkBY">HACKER GUIDE</a></h2>
-            <h2 className="Live__sub-header"><a href="https://github.com/citrushack/CitrusHack20-HackerResources">RESOURCES</a></h2>
-            <h2 className="Live__sub-header"><a href="https://citrushack2020.devpost.com/">DEVPOST</a></h2>
-            <h2 className="Live__sub-header"><a href="https://www.citrushack.com/#/">BACK TO EVENT SITE</a></h2>
+            <h2 className="Live__sub-header"><a href="https://github.com/citrushack/CitrusHack20-HackerResources" target="_blank">RESOURCES</a></h2>
+            <h2 className="Live__sub-header"><a href="https://citrushack2020.devpost.com/" target="_blank">DEVPOST</a></h2>
+            <h2 className="Live__sub-header">
+              <Link to="/">
+                Back to event site
+              </Link>
+            </h2>
           </div>
         </div>
       </div>
