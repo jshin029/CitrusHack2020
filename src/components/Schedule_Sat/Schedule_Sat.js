@@ -220,7 +220,7 @@ class Schedule_Sat extends Component {
                   <div className="innerLeftSchedule">1517 Office Hours</div>
                   <div className="innerRightSchedule">8:00PM-9:00PM</div>
                 </div>
-                <a href="https://meet.google.com/ssy-impw-jqy"> <div className="scheduleLoc">1517 Room</div></a>
+                <a href="https://meet.google.com/ssy-impw-jqy"> <div className="scheduleLoc">Sponsor Room</div></a>
               </div>
               <div className="scheduleSlot" style={{paddingTop: '100px'}}>
                 <div className="scheduleSection">
